@@ -1,0 +1,182 @@
+{
+  "extraction_change": "pdf_prose_native_blocks_v2 keeps the same spatial/length/alphabetic filters as gao_pdf_prose_blocks_v1 but uses native content-stream block order (sort=False). sort=True interleaved left/right-column paragraphs in WDR; native order restores their sequence in inspected examples. Same v2 applied to fresh donor copies. Existing development inputs and their scores unchanged.",
+  "inspection_date": "2026-10-23",
+  "legacy_extraction_check": "Default extract_pdf(path) still matches both original GAO development text SHA256 values exactly; new keyword sort_blocks=False only used for fresh panel.",
+  "limits": [
+    "Short headings, short prose blocks and many numeric tables are omitted by the existing filter. Prose footnotes, inline reference markers, discretionary hyphens and some figure-caption prose remain.",
+    "Sampling inspection is not an exhaustive proof of correct reading order throughout every PDF.",
+    "Eight sources cover different report topics, not a representative sample of all natural language. Two OECD sources share some publication boilerplate.",
+    "Two fixed GAO donors are shared by all targets: donor sensitivity is measured but does not establish generality to arbitrary donor distributions.",
+    "2023-2025 publication dates and separation from development targets do not establish absence from model pretraining or overlap with earlier editions."
+  ],
+  "method": "Read beginning/middle/end snippets of both 1024-token target blocks in all eight reports; compare coordinate/native PDF block order on WorldBank page75. Inspect target page mappings and retain complete target extracts locally in ignored inspection.json.",
+  "result": "Sampled targets contain readable English report prose with normal quotations/citations. The source paragraphs are preserved within the existing block-filter rule; this is prose-extracted report text, not untouched full-document text.",
+  "selection_fixed_before_model_scores": true,
+  "source_candidates_excluded": [
+    {
+      "document_id": "Stanford-AIIndex-2025",
+      "reason": "Only 15062 retained native tokens; below65536 eligibility"
+    },
+    {
+      "document_id": "UNESCO-GEM-2024-25",
+      "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018)>"
+    },
+    {
+      "document_id": "IOM-Migration-2024",
+      "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018)>"
+    }
+  ],
+  "storage": "129.9 MB local including PDFs, extracted documents and paired inputs. Full texts/PDFs/inspection extracts remain ignored, not publication-ready dataset redistribution.",
+  "target_block_inspection": [
+    {
+      "document_id": "IEA-WEO-2025",
+      "end": 32768,
+      "target_pdf_pages": [
+        81,
+        82,
+        83,
+        85
+      ]
+    },
+    {
+      "document_id": "IEA-WEO-2025",
+      "end": 65536,
+      "target_pdf_pages": [
+        164,
+        165,
+        166,
+        167,
+        168
+      ]
+    },
+    {
+      "document_id": "WorldBank-WDR-2025",
+      "end": 32768,
+      "target_pdf_pages": [
+        75,
+        76,
+        77
+      ]
+    },
+    {
+      "document_id": "WorldBank-WDR-2025",
+      "end": 65536,
+      "target_pdf_pages": [
+        128,
+        129,
+        130
+      ]
+    },
+    {
+      "document_id": "UNDP-HDR-2025",
+      "end": 32768,
+      "target_pdf_pages": [
+        56,
+        57,
+        60,
+        61
+      ]
+    },
+    {
+      "document_id": "UNDP-HDR-2025",
+      "end": 65536,
+      "target_pdf_pages": [
+        117,
+        118,
+        119
+      ]
+    },
+    {
+      "document_id": "UK-InfectedBlood-2024-v3",
+      "end": 32768,
+      "target_pdf_pages": [
+        52,
+        53
+      ]
+    },
+    {
+      "document_id": "UK-InfectedBlood-2024-v3",
+      "end": 65536,
+      "target_pdf_pages": [
+        91,
+        92,
+        93
+      ]
+    },
+    {
+      "document_id": "UK-Grenfell-2024-v7",
+      "end": 32768,
+      "target_pdf_pages": [
+        65,
+        66,
+        67
+      ]
+    },
+    {
+      "document_id": "UK-Grenfell-2024-v7",
+      "end": 65536,
+      "target_pdf_pages": [
+        125,
+        126,
+        127,
+        128
+      ]
+    },
+    {
+      "document_id": "OECD-Employment-2025",
+      "end": 32768,
+      "target_pdf_pages": [
+        72,
+        73,
+        74
+      ]
+    },
+    {
+      "document_id": "OECD-Employment-2025",
+      "end": 65536,
+      "target_pdf_pages": [
+        138,
+        139,
+        140
+      ]
+    },
+    {
+      "document_id": "Australia-NDIS-2023",
+      "end": 32768,
+      "target_pdf_pages": [
+        100,
+        101,
+        102,
+        103
+      ]
+    },
+    {
+      "document_id": "Australia-NDIS-2023",
+      "end": 65536,
+      "target_pdf_pages": [
+        212,
+        213,
+        214,
+        215
+      ]
+    },
+    {
+      "document_id": "OECD-PISA-2022-v2",
+      "end": 32768,
+      "target_pdf_pages": [
+        77,
+        78,
+        79,
+        80
+      ]
+    },
+    {
+      "document_id": "OECD-PISA-2022-v2",
+      "end": 65536,
+      "target_pdf_pages": [
+        159,
+        160
+      ]
+    }
+  ]
+}

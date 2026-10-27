@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying paper when using this study."
+type: software
+title: "Prefix interference in recurrent language models: reproduction materials"
+version: 2.0.0
+date-released: 2026-10-26
+authors:
+  - family-names: Sakaretsios
+    given-names: Sotirios
+    affiliation: Codewire
+    email: sotiris@codewire.gr
+license: MIT
+preferred-citation:
+  type: article
+  title: "Separating Distant-Content Benefits from Prefix Interference in Recurrent Language Models"
+  authors:
+    - family-names: Sakaretsios
+      given-names: Sotirios
+      affiliation: Codewire
+  year: 2026

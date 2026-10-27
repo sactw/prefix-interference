@@ -1,0 +1,96 @@
+{
+  "documents": [
+    {
+      "assessment": "Readable economic-report prose about critical mineral supply chains and policy; ordinary explanatory footnotes and page/column continuation fragments are retained. Opening span contains institutional attribution and addresses.",
+      "document_id": "UN-WESP-2025",
+      "native_tokens": 87688,
+      "recent_pdf_pages": [
+        69,
+        70,
+        71
+      ],
+      "target_pdf_pages": [
+        71,
+        73,
+        74
+      ]
+    },
+    {
+      "assessment": "Readable policy recommendations about critical raw materials, industrial integration and recycling, including prose bullets and footnotes. Native PDF line wrapping retains a few soft hyphens; no OCR garbage or scrambled columns observed in inspected ranges.",
+      "document_id": "EU-Draghi-2024-B",
+      "native_tokens": 196792,
+      "recent_pdf_pages": [
+        60,
+        61,
+        62
+      ],
+      "target_pdf_pages": [
+        62,
+        63
+      ]
+    },
+    {
+      "assessment": "Readable mineral extraction, concentration and trade prose. Footnotes with URLs interrupt some paragraph continuations, as in the unchanged extractor. Opening span includes report/legal boilerplate.",
+      "document_id": "UNCTAD-DigitalEconomy-2024",
+      "native_tokens": 137197,
+      "recent_pdf_pages": [
+        74,
+        75,
+        76
+      ],
+      "target_pdf_pages": [
+        76,
+        78,
+        79
+      ]
+    },
+    {
+      "assessment": "Readable scientific review of cybersecurity capabilities and risks with citations, bullet summaries and normal page continuations. Author-posted arXiv PDF used because the former gov.uk PDF URL redirects to the project homepage.",
+      "document_id": "UK-AISafety-2025",
+      "native_tokens": 198708,
+      "recent_pdf_pages": [
+        69,
+        70,
+        71,
+        72
+      ],
+      "target_pdf_pages": [
+        72,
+        73,
+        74
+      ]
+    }
+  ],
+  "excluded_on_inspection": {
+    "UNESCO-Water-2025": "E32768 recent/target region crosses a long bibliography. Excluded before scoring for this prose study, without moving the endpoint."
+  },
+  "extraction": "Unchanged pdf_prose_native_blocks_v2, native PDF block order. This is filtered report prose, not unmodified PDF text. Retains ordinary citations, prose bullet points and some footnotes. Short headings and many numeric tables are omitted by the existing extractor. No manual reordering, synthetic filling, target shifting, model-based selection or paragraph repair.",
+  "inspected_ranges_native_tokens": [
+    [
+      0,
+      256
+    ],
+    [
+      15360,
+      15616
+    ],
+    [
+      30720,
+      31744
+    ],
+    [
+      31744,
+      32768
+    ]
+  ],
+  "limitations": "Convenience sample of public reports, not a representative natural-text benchmark. Three selected reports discuss economic/industrial themes, with some shared topical focus on minerals. New to this study does not mean unseen during pretraining. The same donor is reused, so intervals condition on that donor. This replication tests the existing fixed protocol on new reports, not an intervention on model capacity.",
+  "other_attempts": {
+    "Australia-CovidInquiry-2024": "Download did not satisfy PDF-under50MB check",
+    "ILO-WESO-2025": "Length eligible at 40020 tokens; excluded after the four-report cohort was fixed.",
+    "IOM-Migration-2024": "Expired TLS certificate; no insecure bypass",
+    "UK-CovidInquiry-2024-M1": "HTTP403"
+  },
+  "overlap": "Each selected target's first32768 native tokens has zero shared 13-word shingles with the fixed donor's first30720 tokens. This is a limited textual overlap check, not proof of semantic independence or pretraining disjointness.",
+  "scope": "Four new public report targets, selected without viewing model scores. Fixed endpoint E32768, recent C1024, target T1024 in the pinned GPT-NeoX tokenizer. Same existing GAO-25-107705__donor text for every target.",
+  "selection_timing": "The first two targets were selected after extraction inspection, followed by UNCTAD and AI Safety. Each was selected before viewing its model scores. The panel was then fixed at these four reports. Additional retrieval attempts and length-eligible candidates are recorded but are not part of the panel."
+}

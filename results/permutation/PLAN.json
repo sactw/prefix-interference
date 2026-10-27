@@ -1,0 +1,35 @@
+{
+  "analysis": "Paired document bootstrap 2000 draws seed20261020; changes of CEfull, CEforeign, N, B, P. Repeat strata use unpermuted source labels; survival of actual far occurrences reported separately.",
+  "block_tokens": 512,
+  "blocks": 60,
+  "date": "2026-10-24",
+  "documents": [
+    "IEA-WEO-2025",
+    "WorldBank-WDR-2025",
+    "UNDP-HDR-2025",
+    "UK-InfectedBlood-2024-v3",
+    "UK-Grenfell-2024-v7",
+    "OECD-Employment-2025",
+    "Australia-NDIS-2023",
+    "OECD-PISA-2022-v2"
+  ],
+  "donors": "fixed donor1 assignment from fresh panel",
+  "end": 32768,
+  "execution": "native fused FP32 IEEE path",
+  "far_tokens": 30720,
+  "intervention": "Shuffle first59 blocks with one fixed seeded permutation, identically for actual F and foreign U. Last512-token block stays in place so F/R and U/R boundary tokens remain fixed. Original and permuted triplets freshly scored; R, Y and BOS unchanged. No tokens inserted/deleted.",
+  "keep_tail_blocks": 1,
+  "limits": [
+    "Exploratory follow-up after previous panel",
+    "Shuffling changes coherence, distances, seams and placement; not pure state-capacity or repetition intervention",
+    "One permutation and donor assignment, not population over permutations or donors"
+  ],
+  "model": "state-spaces/mamba2-130m",
+  "permuted_blocks": 59,
+  "pre_execution_refinement": "Before any permutation scores: anchor final block to exclude changing the seam next to recent history",
+  "recent": 1024,
+  "scientific_question": "How much of original-versus-foreign interference depends on the ordering/placement of older blocks?",
+  "seed": 20261024,
+  "status": "planned_before_scores",
+  "targets": 1024
+}

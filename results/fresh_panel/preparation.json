@@ -1,0 +1,194 @@
+{
+  "before_results_refinement": {
+    "date": "2026-10-23",
+    "endpoints": [
+      32768,
+      65536
+    ],
+    "maximum_required_donor_tokens": 63488,
+    "previous_maximum_required_donor_tokens": 62464,
+    "reason": "Both public checkpoints were trained at2048 tokens. Replace C2048 with C1024 so the shortest scored native forward is2048 tokens including BOS/prediction shift; retain the longer C settings. Input documents and bytes unchanged.",
+    "recent_prefix_tokens": [
+      1024,
+      8192,
+      16384
+    ],
+    "target_tokens": 1024
+  },
+  "donor_policy": "Two fixed development GAO reports; excluded from fresh targets. Both shared across targets, so donors are not independent population samples.",
+  "donors": [
+    "GAO-25-107705",
+    "GAO-25-107421"
+  ],
+  "maximum_required_donor_tokens": 63488,
+  "overlap": [
+    {
+      "donor": "GAO-25-107705",
+      "donor_tokens": 181797,
+      "eligible": true,
+      "jaccard": 0.0,
+      "required_donor_tokens": 63488,
+      "shared_13_word_shingles": 0,
+      "target": "IEA-WEO-2025"
+    },
+    {
+      "donor": "GAO-25-107705",
+      "donor_tokens": 181797,
+      "eligible": true,
+      "jaccard": 0.0,
+      "required_donor_tokens": 63488,
+      "shared_13_word_shingles": 0,
+      "target": "WorldBank-WDR-2025"
+    },
+    {
+      "donor": "GAO-25-107705",
+      "donor_tokens": 181797,
+      "eligible": true,
+      "jaccard": 0.0,
+      "required_donor_tokens": 63488,
+      "shared_13_word_shingles": 0,
+      "target": "UNDP-HDR-2025"
+    },
+    {
+      "donor": "GAO-25-107705",
+      "donor_tokens": 181797,
+      "eligible": true,
+      "jaccard": 0.0,
+      "required_donor_tokens": 63488,
+      "shared_13_word_shingles": 0,
+      "target": "UK-InfectedBlood-2024-v3"
+    },
+    {
+      "donor": "GAO-25-107705",
+      "donor_tokens": 181797,
+      "eligible": true,
+      "jaccard": 0.0,
+      "required_donor_tokens": 63488,
+      "shared_13_word_shingles": 0,
+      "target": "UK-Grenfell-2024-v7"
+    },
+    {
+      "donor": "GAO-25-107705",
+      "donor_tokens": 181797,
+      "eligible": true,
+      "jaccard": 0.0,
+      "required_donor_tokens": 63488,
+      "shared_13_word_shingles": 0,
+      "target": "OECD-Employment-2025"
+    },
+    {
+      "donor": "GAO-25-107705",
+      "donor_tokens": 181797,
+      "eligible": true,
+      "jaccard": 0.0,
+      "required_donor_tokens": 63488,
+      "shared_13_word_shingles": 0,
+      "target": "Australia-NDIS-2023"
+    },
+    {
+      "donor": "GAO-25-107705",
+      "donor_tokens": 181797,
+      "eligible": true,
+      "jaccard": 0.0,
+      "required_donor_tokens": 63488,
+      "shared_13_word_shingles": 0,
+      "target": "OECD-PISA-2022-v2"
+    },
+    {
+      "donor": "GAO-25-107421",
+      "donor_tokens": 143458,
+      "eligible": true,
+      "jaccard": 0.0,
+      "required_donor_tokens": 63488,
+      "shared_13_word_shingles": 0,
+      "target": "IEA-WEO-2025"
+    },
+    {
+      "donor": "GAO-25-107421",
+      "donor_tokens": 143458,
+      "eligible": true,
+      "jaccard": 0.0,
+      "required_donor_tokens": 63488,
+      "shared_13_word_shingles": 0,
+      "target": "WorldBank-WDR-2025"
+    },
+    {
+      "donor": "GAO-25-107421",
+      "donor_tokens": 143458,
+      "eligible": true,
+      "jaccard": 0.0,
+      "required_donor_tokens": 63488,
+      "shared_13_word_shingles": 0,
+      "target": "UNDP-HDR-2025"
+    },
+    {
+      "donor": "GAO-25-107421",
+      "donor_tokens": 143458,
+      "eligible": true,
+      "jaccard": 0.0,
+      "required_donor_tokens": 63488,
+      "shared_13_word_shingles": 0,
+      "target": "UK-InfectedBlood-2024-v3"
+    },
+    {
+      "donor": "GAO-25-107421",
+      "donor_tokens": 143458,
+      "eligible": true,
+      "jaccard": 0.0,
+      "required_donor_tokens": 63488,
+      "shared_13_word_shingles": 0,
+      "target": "UK-Grenfell-2024-v7"
+    },
+    {
+      "donor": "GAO-25-107421",
+      "donor_tokens": 143458,
+      "eligible": true,
+      "jaccard": 0.0,
+      "required_donor_tokens": 63488,
+      "shared_13_word_shingles": 0,
+      "target": "OECD-Employment-2025"
+    },
+    {
+      "donor": "GAO-25-107421",
+      "donor_tokens": 143458,
+      "eligible": true,
+      "jaccard": 0.0,
+      "required_donor_tokens": 63488,
+      "shared_13_word_shingles": 0,
+      "target": "Australia-NDIS-2023"
+    },
+    {
+      "donor": "GAO-25-107421",
+      "donor_tokens": 143458,
+      "eligible": true,
+      "jaccard": 0.0,
+      "required_donor_tokens": 63488,
+      "shared_13_word_shingles": 0,
+      "target": "OECD-PISA-2022-v2"
+    }
+  ],
+  "panels": [
+    {
+      "name": "panel_donor1.jsonl",
+      "sha256": "ae7c844916fc9b2e4a0400866059539282151046f071182636bcc717bc9a11fa"
+    },
+    {
+      "name": "panel_donor2.jsonl",
+      "sha256": "a0f94c5f1438d62ef01aceade6f20ae49f0d1b82e2a7f123cafac528667fb284"
+    }
+  ],
+  "prepared_at": "2026-10-23T14:10:38.230106+00:00",
+  "scope": "Diverse report topics, not representative of all prose. Annual reports/editions can reuse earlier text; publication date does not prove pretraining disjointness.",
+  "selection": "Explicit source list, public contemporary PDF reports, readable extracted prose >=65536 native tokens; no model scores used",
+  "source_list_sha256": "362c62545dbe644989f6b2cce790966129f008f176788f2b5219282f05b30658",
+  "target_document_ids": [
+    "IEA-WEO-2025",
+    "WorldBank-WDR-2025",
+    "UNDP-HDR-2025",
+    "UK-InfectedBlood-2024-v3",
+    "UK-Grenfell-2024-v7",
+    "OECD-Employment-2025",
+    "Australia-NDIS-2023",
+    "OECD-PISA-2022-v2"
+  ]
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "document_id": "IEA-WEO-2025",
+    "domain": "energy",
+    "product_url": "https://www.iea.org/reports/world-energy-outlook-2025",
+    "publication_date": "2025-11-12",
+    "title": "World Energy Outlook 2025",
+    "url": "https://iea.blob.core.windows.net/assets/0a7a40a4-5dcb-4d6e-a7ad-76a1c90ec8eb/WorldEnergyOutlook2025.pdf"
+  },
+  {
+    "document_id": "WorldBank-WDR-2025",
+    "domain": "economic development",
+    "product_url": "https://www.worldbank.org/en/publication/wdr2025",
+    "publication_date": "2025-12-11",
+    "title": "World Development Report 2025: Standards for Development",
+    "url": "https://openknowledge.worldbank.org/bitstreams/638aca2d-596b-4021-9a02-d21d20ca7f14/download"
+  },
+  {
+    "document_id": "Stanford-AIIndex-2025",
+    "domain": "technology research",
+    "product_url": "https://hai.stanford.edu/ai-index/2025-ai-index-report",
+    "publication_date": "2025-04-07",
+    "title": "Artificial Intelligence Index Report 2025",
+    "url": "https://hai.stanford.edu/assets/files/hai_ai_index_report_2025.pdf"
+  },
+  {
+    "document_id": "UNDP-HDR-2025",
+    "domain": "human development",
+    "product_url": "https://hdr.undp.org/content/human-development-report-2025",
+    "publication_date": "2025-05-06",
+    "title": "Human Development Report 2025",
+    "url": "https://hdr.undp.org/system/files/documents/global-report-document/hdr2025reporten.pdf"
+  },
+  {
+    "document_id": "UK-InfectedBlood-2024-v3",
+    "domain": "health public inquiry",
+    "product_url": "https://www.infectedbloodinquiry.org.uk/reports/inquiry-report",
+    "publication_date": "2024-05-20",
+    "title": "Infected Blood Inquiry Report Volume 3",
+    "url": "https://www.infectedbloodinquiry.org.uk/sites/default/files/Volume_3.pdf"
+  },
+  {
+    "document_id": "UK-Grenfell-2024-v7",
+    "domain": "building safety public inquiry",
+    "product_url": "https://www.grenfelltowerinquiry.org.uk/phase-2-report",
+    "publication_date": "2024-09-04",
+    "title": "Grenfell Tower Inquiry Phase 2 Report Volume 7",
+    "url": "https://assets.publishing.service.gov.uk/media/66d818059084b18b95709f86/CCS0923434692-004_GTI_Phase_2_Volume_7_BOOKMARKED.pdf"
+  },
+  {
+    "document_id": "OECD-Employment-2025",
+    "domain": "labour economics",
+    "product_url": "https://doi.org/10.1787/194a947b-en",
+    "publication_date": "2025-07-09",
+    "title": "OECD Employment Outlook 2025: Can We Get Through the Demographic Crunch?",
+    "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/07/oecd-employment-outlook-2025_5345f034/194a947b-en.pdf"
+  },
+  {
+    "document_id": "UNESCO-GEM-2024-25",
+    "domain": "education",
+    "product_url": "https://www.unesco.org/reports/gem-report/en/2024",
+    "publication_date": "2024",
+    "title": "Global Education Monitoring Report 2024/5: Leadership in education",
+    "url": "https://unesdoc.unesco.org/in/rest/annotationSVC/DownloadWatermarkedAttachment/attach_import_fc148efb-a3c6-4cf8-a0d3-f9a9dec9d8a0?_=391406eng.pdf"
+  },
+  {
+    "document_id": "Australia-NDIS-2023",
+    "domain": "disability policy",
+    "product_url": "https://www.ndisreview.gov.au/resources/reports/working-together-deliver-ndis/",
+    "publication_date": "2023-12-07",
+    "title": "Working together to deliver the NDIS: Independent Review Final Report",
+    "url": "https://www.ndisreview.gov.au/sites/default/files/resource/download/working-together-ndis-review-final-report.pdf"
+  },
+  {
+    "document_id": "IOM-Migration-2024",
+    "domain": "migration",
+    "product_url": "https://publications.iom.int/books/world-migration-report-2024",
+    "publication_date": "2024",
+    "title": "World Migration Report 2024",
+    "url": "https://publications.iom.int/system/files/pdf/pub2023-047-l-world-migration-report-2024_8.pdf"
+  },
+  {
+    "document_id": "OECD-PISA-2022-v2",
+    "domain": "education",
+    "product_url": "https://doi.org/10.1787/a97db61c-en",
+    "publication_date": "2023-12-05",
+    "title": "PISA 2022 Results Volume II: Learning During - and From - Disruption",
+    "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/12/pisa-2022-results-volume-ii_222a5ef6/a97db61c-en.pdf"
+  }
+]

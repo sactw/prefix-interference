@@ -1,0 +1,528 @@
+{
+  "analysis": "reuse identical target bytes with paired document resampling; model training differs",
+  "cases": [
+    {
+      "checks": {
+        "foreign": {
+          "documentary_tokens": 32706,
+          "exact_text_roundtrip": true,
+          "input_ids_identical": true,
+          "target_boundary_unchanged": true
+        },
+        "full": {
+          "documentary_tokens": 32768,
+          "exact_text_roundtrip": true,
+          "input_ids_identical": true,
+          "target_boundary_unchanged": true
+        },
+        "short": {
+          "documentary_tokens": 2048,
+          "exact_text_roundtrip": true,
+          "input_ids_identical": true,
+          "target_boundary_unchanged": true
+        }
+      },
+      "document_id": "EU-Draghi-2024-B",
+      "donor_id": "GAO-25-107705__donor",
+      "plan": "data_matched/rwkv_panel_20261024/EU-Draghi-2024-B_GAO-25-107705__donor_rwkv.npz",
+      "sha256": "d01e5abf66ae9e36e0c192d46059a1360a7dea166535130c25ab54bddede2db2",
+      "source_char_spans": {
+        "far": [
+          0,
+          159966
+        ],
+        "recent": [
+          159966,
+          165467
+        ],
+        "target": [
+          165467,
+          170944
+        ]
+      },
+      "target_tokens": 1023,
+      "target_utf8_bytes": 5520
+    },
+    {
+      "checks": {
+        "foreign": {
+          "documentary_tokens": 32454,
+          "exact_text_roundtrip": true,
+          "input_ids_identical": true,
+          "target_boundary_unchanged": true
+        },
+        "full": {
+          "documentary_tokens": 32768,
+          "exact_text_roundtrip": true,
+          "input_ids_identical": true,
+          "target_boundary_unchanged": true
+        },
+        "short": {
+          "documentary_tokens": 2048,
+          "exact_text_roundtrip": true,
+          "input_ids_identical": true,
+          "target_boundary_unchanged": true
+        }
+      },
+      "document_id": "UK-AISafety-2025",
+      "donor_id": "GAO-25-107705__donor",
+      "plan": "data_matched/rwkv_panel_20261024/UK-AISafety-2025_GAO-25-107705__donor_rwkv.npz",
+      "sha256": "06e299624a9a21adfb462fd34125772e1e1d92746fb85d22cc81d809371542d4",
+      "source_char_spans": {
+        "far": [
+          0,
+          158651
+        ],
+        "recent": [
+          158651,
+          164170
+        ],
+        "target": [
+          164170,
+          169650
+        ]
+      },
+      "target_tokens": 1024,
+      "target_utf8_bytes": 5512
+    },
+    {
+      "checks": {
+        "foreign": {
+          "documentary_tokens": 32799,
+          "exact_text_roundtrip": true,
+          "input_ids_identical": true,
+          "target_boundary_unchanged": true
+        },
+        "full": {
+          "documentary_tokens": 32768,
+          "exact_text_roundtrip": true,
+          "input_ids_identical": true,
+          "target_boundary_unchanged": true
+        },
+        "short": {
+          "documentary_tokens": 2048,
+          "exact_text_roundtrip": true,
+          "input_ids_identical": true,
+          "target_boundary_unchanged": true
+        }
+      },
+      "document_id": "UN-WESP-2025",
+      "donor_id": "GAO-25-107705__donor",
+      "plan": "data_matched/rwkv_panel_20261024/UN-WESP-2025_GAO-25-107705__donor_rwkv.npz",
+      "sha256": "71125878f7f508d3b844c8f49411a8ead6b98f7a871736ac811fe9199575e4c7",
+      "source_char_spans": {
+        "far": [
+          0,
+          160472
+        ],
+        "recent": [
+          160472,
+          165657
+        ],
+        "target": [
+          165657,
+          171086
+        ]
+      },
+      "target_tokens": 1023,
+      "target_utf8_bytes": 5438
+    },
+    {
+      "checks": {
+        "foreign": {
+          "documentary_tokens": 32309,
+          "exact_text_roundtrip": true,
+          "input_ids_identical": true,
+          "target_boundary_unchanged": true
+        },
+        "full": {
+          "documentary_tokens": 32768,
+          "exact_text_roundtrip": true,
+          "input_ids_identical": true,
+          "target_boundary_unchanged": true
+        },
+        "short": {
+          "documentary_tokens": 2049,
+          "exact_text_roundtrip": true,
+          "input_ids_identical": true,
+          "target_boundary_unchanged": true
+        }
+      },
+      "document_id": "UNCTAD-DigitalEconomy-2024",
+      "donor_id": "GAO-25-107705__donor",
+      "plan": "data_matched/rwkv_panel_20261024/UNCTAD-DigitalEconomy-2024_GAO-25-107705__donor_rwkv.npz",
+      "sha256": "20553e075efa8bcd4024fc8729617cee9e118641b4566ef46fcc44e185e58003",
+      "source_char_spans": {
+        "far": [
+          0,
+          157831
+        ],
+        "recent": [
+          157831,
+          163156
+        ],
+        "target": [
+          163156,
+          168049
+        ]
+      },
+      "target_tokens": 1023,
+      "target_utf8_bytes": 4899
+    },
+    {
+      "checks": {
+        "foreign": {
+          "documentary_tokens": 34082,
+          "exact_text_roundtrip": true,
+          "input_ids_identical": true,
+          "target_boundary_unchanged": true
+        },
+        "full": {
+          "documentary_tokens": 32768,
+          "exact_text_roundtrip": true,
+          "input_ids_identical": true,
+          "target_boundary_unchanged": true
+        },
+        "short": {
+          "documentary_tokens": 2048,
+          "exact_text_roundtrip": true,
+          "input_ids_identical": true,
+          "target_boundary_unchanged": true
+        }
+      },
+      "document_id": "Australia-NDIS-2023",
+      "donor_id": "GAO-25-107705__donor",
+      "plan": "data_matched/rwkv_panel_20261024/Australia-NDIS-2023_donor1_rwkv.npz",
+      "sha256": "d9858600d5fb4005bd99c3eb1e3595819cc4b15308eee35acba476b9fbb88060",
+      "source_char_spans": {
+        "far": [
+          0,
+          167638
+        ],
+        "recent": [
+          167638,
+          173333
+        ],
+        "target": [
+          173333,
+          178639
+        ]
+      },
+      "target_tokens": 1024,
+      "target_utf8_bytes": 5316
+    },
+    {
+      "checks": {
+        "foreign": {
+          "documentary_tokens": 31163,
+          "exact_text_roundtrip": true,
+          "input_ids_identical": true,
+          "target_boundary_unchanged": true
+        },
+        "full": {
+          "documentary_tokens": 32768,
+          "exact_text_roundtrip": true,
+          "input_ids_identical": true,
+          "target_boundary_unchanged": true
+        },
+        "short": {
+          "documentary_tokens": 2049,
+          "exact_text_roundtrip": true,
+          "input_ids_identical": true,
+          "target_boundary_unchanged": true
+        }
+      },
+      "document_id": "IEA-WEO-2025",
+      "donor_id": "GAO-25-107705__donor",
+      "plan": "data_matched/rwkv_panel_20261024/IEA-WEO-2025_donor1_rwkv.npz",
+      "sha256": "8d9f4ddcb9640bc332be912ecf79c92ae4a796046db2fd29807e76e22970a0f2",
+      "source_char_spans": {
+        "far": [
+          0,
+          151718
+        ],
+        "recent": [
+          151718,
+          156986
+        ],
+        "target": [
+          156986,
+          162495
+        ]
+      },
+      "target_tokens": 1023,
+      "target_utf8_bytes": 5517
+    },
+    {
+      "checks": {
+        "foreign": {
+          "documentary_tokens": 29137,
+          "exact_text_roundtrip": true,
+          "input_ids_identical": true,
+          "target_boundary_unchanged": true
+        },
+        "full": {
+          "documentary_tokens": 32768,
+          "exact_text_roundtrip": true,
+          "input_ids_identical": true,
+          "target_boundary_unchanged": true
+        },
+        "short": {
+          "documentary_tokens": 2048,
+          "exact_text_roundtrip": true,
+          "input_ids_identical": true,
+          "target_boundary_unchanged": true
+        }
+      },
+      "document_id": "OECD-Employment-2025",
+      "donor_id": "GAO-25-107705__donor",
+      "plan": "data_matched/rwkv_panel_20261024/OECD-Employment-2025_donor1_rwkv.npz",
+      "sha256": "1cf58a11fa5368401f49422271f4549640a5e2d75649b04f364e35a72939b997",
+      "source_char_spans": {
+        "far": [
+          0,
+          140739
+        ],
+        "recent": [
+          140739,
+          146080
+        ],
+        "target": [
+          146080,
+          150695
+        ]
+      },
+      "target_tokens": 1023,
+      "target_utf8_bytes": 4632
+    },
+    {
+      "checks": {
+        "foreign": {
+          "documentary_tokens": 31030,
+          "exact_text_roundtrip": true,
+          "input_ids_identical": true,
+          "target_boundary_unchanged": true
+        },
+        "full": {
+          "documentary_tokens": 32768,
+          "exact_text_roundtrip": true,
+          "input_ids_identical": true,
+          "target_boundary_unchanged": true
+        },
+        "short": {
+          "documentary_tokens": 2048,
+          "exact_text_roundtrip": true,
+          "input_ids_identical": true,
+          "target_boundary_unchanged": true
+        }
+      },
+      "document_id": "OECD-PISA-2022-v2",
+      "donor_id": "GAO-25-107705__donor",
+      "plan": "data_matched/rwkv_panel_20261024/OECD-PISA-2022-v2_donor1_rwkv.npz",
+      "sha256": "245c367354a7beefa913d32070423bc306fecb5590458abf8a298e73ec7a569e",
+      "source_char_spans": {
+        "far": [
+          0,
+          150964
+        ],
+        "recent": [
+          150964,
+          156367
+        ],
+        "target": [
+          156367,
+          161370
+        ]
+      },
+      "target_tokens": 1023,
+      "target_utf8_bytes": 5026
+    },
+    {
+      "checks": {
+        "foreign": {
+          "documentary_tokens": 30882,
+          "exact_text_roundtrip": true,
+          "input_ids_identical": true,
+          "target_boundary_unchanged": true
+        },
+        "full": {
+          "documentary_tokens": 32768,
+          "exact_text_roundtrip": true,
+          "input_ids_identical": true,
+          "target_boundary_unchanged": true
+        },
+        "short": {
+          "documentary_tokens": 2048,
+          "exact_text_roundtrip": true,
+          "input_ids_identical": true,
+          "target_boundary_unchanged": true
+        }
+      },
+      "document_id": "UK-Grenfell-2024-v7",
+      "donor_id": "GAO-25-107705__donor",
+      "plan": "data_matched/rwkv_panel_20261024/UK-Grenfell-2024-v7_donor1_rwkv.npz",
+      "sha256": "1d1328dc2db7ba42e87108728d63bae6914bf823974915ec76f797ac74c1d47d",
+      "source_char_spans": {
+        "far": [
+          0,
+          150164
+        ],
+        "recent": [
+          150164,
+          155058
+        ],
+        "target": [
+          155058,
+          160139
+        ]
+      },
+      "target_tokens": 1023,
+      "target_utf8_bytes": 5089
+    },
+    {
+      "checks": {
+        "foreign": {
+          "documentary_tokens": 30665,
+          "exact_text_roundtrip": true,
+          "input_ids_identical": true,
+          "target_boundary_unchanged": true
+        },
+        "full": {
+          "documentary_tokens": 32768,
+          "exact_text_roundtrip": true,
+          "input_ids_identical": true,
+          "target_boundary_unchanged": true
+        },
+        "short": {
+          "documentary_tokens": 2048,
+          "exact_text_roundtrip": true,
+          "input_ids_identical": true,
+          "target_boundary_unchanged": true
+        }
+      },
+      "document_id": "UK-InfectedBlood-2024-v3",
+      "donor_id": "GAO-25-107705__donor",
+      "plan": "data_matched/rwkv_panel_20261024/UK-InfectedBlood-2024-v3_donor1_rwkv.npz",
+      "sha256": "357a0cb003968f5ae3bdac4d693be4b687d4a213e13f63a4ff502dacea2a4037",
+      "source_char_spans": {
+        "far": [
+          0,
+          148904
+        ],
+        "recent": [
+          148904,
+          153889
+        ],
+        "target": [
+          153889,
+          158738
+        ]
+      },
+      "target_tokens": 1023,
+      "target_utf8_bytes": 4883
+    },
+    {
+      "checks": {
+        "foreign": {
+          "documentary_tokens": 29557,
+          "exact_text_roundtrip": true,
+          "input_ids_identical": true,
+          "target_boundary_unchanged": true
+        },
+        "full": {
+          "documentary_tokens": 32768,
+          "exact_text_roundtrip": true,
+          "input_ids_identical": true,
+          "target_boundary_unchanged": true
+        },
+        "short": {
+          "documentary_tokens": 2048,
+          "exact_text_roundtrip": true,
+          "input_ids_identical": true,
+          "target_boundary_unchanged": true
+        }
+      },
+      "document_id": "UNDP-HDR-2025",
+      "donor_id": "GAO-25-107705__donor",
+      "plan": "data_matched/rwkv_panel_20261024/UNDP-HDR-2025_donor1_rwkv.npz",
+      "sha256": "acfbcdfb3d18a7990a9228ec51045f30d9ee586f8dfbe95bedd6741ae83914b0",
+      "source_char_spans": {
+        "far": [
+          0,
+          142957
+        ],
+        "recent": [
+          142957,
+          148069
+        ],
+        "target": [
+          148069,
+          153158
+        ]
+      },
+      "target_tokens": 1023,
+      "target_utf8_bytes": 5114
+    },
+    {
+      "checks": {
+        "foreign": {
+          "documentary_tokens": 31291,
+          "exact_text_roundtrip": true,
+          "input_ids_identical": true,
+          "target_boundary_unchanged": true
+        },
+        "full": {
+          "documentary_tokens": 32768,
+          "exact_text_roundtrip": true,
+          "input_ids_identical": true,
+          "target_boundary_unchanged": true
+        },
+        "short": {
+          "documentary_tokens": 2048,
+          "exact_text_roundtrip": true,
+          "input_ids_identical": true,
+          "target_boundary_unchanged": true
+        }
+      },
+      "document_id": "WorldBank-WDR-2025",
+      "donor_id": "GAO-25-107705__donor",
+      "plan": "data_matched/rwkv_panel_20261024/WorldBank-WDR-2025_donor1_rwkv.npz",
+      "sha256": "431e52a400ecea0864996db1dac1b0e86136b027d0d74f192f8b687db0b59963",
+      "source_char_spans": {
+        "far": [
+          0,
+          152370
+        ],
+        "recent": [
+          152370,
+          157613
+        ],
+        "target": [
+          157613,
+          162809
+        ]
+      },
+      "target_tokens": 1023,
+      "target_utf8_bytes": 5230
+    }
+  ],
+  "code_revision": "9b251db8",
+  "elapsed_seconds": 2.7919946091715246,
+  "kind": "rwkv_frozen_matched_text_preparation",
+  "model_filename": "RWKV-x070-Pile-421M-20241127-ctx4096.pth",
+  "model_reference": {
+    "model_id": "BlinkDL/rwkv-7-pile",
+    "revision": "dac041b037030e33db4ccaccffb67b3fd6d63ff4",
+    "tokenizer_id": "BlinkDL/ChatRWKV/20B_tokenizer.json",
+    "tokenizer_revision": "2e2bb1cd390cefbedae0a89f4a343f6f754d6621"
+  },
+  "native_bpe_settings_equal": true,
+  "prepared_plans": 12,
+  "prepared_utc": "2026-10-24T20:02:18.034443+00:00",
+  "scope": "new RWKV cells only; existing Mamba/GDN plans and results unchanged",
+  "selection": "all supplied frozen source plans; no model scores read",
+  "source_tokenizer_json_sha256": "c24618a1b3e6a38167beff1c72cffd126c3a66254347304b50547d12c5f25624",
+  "status": "prepared_not_submitted",
+  "tokenizer_json_sha256": "56ac4821e129d2c520fdaba60abd920fa852ada51b45c0dd52bbb6bd8c985ade",
+  "tokenizer_source": "https://raw.githubusercontent.com/BlinkDL/ChatRWKV/2e2bb1cd390cefbedae0a89f4a343f6f754d6621/20B_tokenizer.json"
+}

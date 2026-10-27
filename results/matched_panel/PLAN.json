@@ -1,0 +1,559 @@
+{
+  "additional_model_cells": 14,
+  "alignment_report_sha256": "b1ac08b7ebd7690e39a1d203e11fffd43acc82cbb0e7ec2744d2e83727df41e9",
+  "analysis": "Compare paired effects on identical target bytes; sum target NLL over bytes with document-cluster bootstrap. Keep separate from native-token panel.",
+  "cases": [
+    {
+      "document_id": "IEA-WEO-2025",
+      "donor_id": "GAO-25-107705__donor",
+      "models": {
+        "gdn": {
+          "action": "reuse_completed_result",
+          "alignment_metadata_equal": true,
+          "bytes": 116620,
+          "documentary_input_tokens": {
+            "foreign": 35328,
+            "full": 36898,
+            "short": 2261
+          },
+          "serialized_plan_equal": true,
+          "sha256": "56abda8d547447b5203a1c9b68bb83fe07fa52156ab7e08e6cdee3bc4943a394",
+          "target_tokens": 1112
+        },
+        "mamba": {
+          "action": "reuse_completed_result",
+          "alignment_metadata_equal": true,
+          "bytes": 107618,
+          "documentary_input_tokens": {
+            "foreign": 31163,
+            "full": 32768,
+            "short": 2049
+          },
+          "serialized_plan_equal": true,
+          "sha256": "7b62654ced1147f7514e21af6a85f508410ea88ac4b5a464c85651d0e4638756",
+          "target_tokens": 1023
+        }
+      },
+      "requested_source_char_spans": {
+        "far": [
+          0,
+          151718
+        ],
+        "recent": [
+          151718,
+          156984
+        ],
+        "target": [
+          156984,
+          162495
+        ]
+      },
+      "source_char_spans": {
+        "far": [
+          0,
+          151718
+        ],
+        "recent": [
+          151718,
+          156986
+        ],
+        "target": [
+          156986,
+          162495
+        ]
+      },
+      "target_start_adjustment_characters": 2,
+      "target_text_sha256": "be7be4f71d038d6cf6490a5a98a20984d13c52fb53c9d4e05e37ab71bd989add",
+      "target_utf8_bytes": 5517
+    },
+    {
+      "document_id": "WorldBank-WDR-2025",
+      "donor_id": "GAO-25-107705__donor",
+      "models": {
+        "gdn": {
+          "action": "prepared_not_submitted",
+          "alignment_metadata_equal": true,
+          "bytes": 126131,
+          "documentary_input_tokens": {
+            "foreign": 35517,
+            "full": 36383,
+            "short": 2299
+          },
+          "serialized_plan_equal": true,
+          "sha256": "821bcb41f7b8e809181580226c884af0a3d1aeb237a3a831204cba9084a985f4",
+          "target_tokens": 1151
+        },
+        "mamba": {
+          "action": "prepared_not_submitted",
+          "alignment_metadata_equal": true,
+          "bytes": 116565,
+          "documentary_input_tokens": {
+            "foreign": 31291,
+            "full": 32768,
+            "short": 2048
+          },
+          "serialized_plan_equal": true,
+          "sha256": "c7495895850630ce15a4a70f9353493d87246e6eb00ad25fa743c426c07c947b",
+          "target_tokens": 1023
+        }
+      },
+      "requested_source_char_spans": {
+        "far": [
+          0,
+          152370
+        ],
+        "recent": [
+          152370,
+          157609
+        ],
+        "target": [
+          157609,
+          162809
+        ]
+      },
+      "source_char_spans": {
+        "far": [
+          0,
+          152370
+        ],
+        "recent": [
+          152370,
+          157613
+        ],
+        "target": [
+          157613,
+          162809
+        ]
+      },
+      "target_start_adjustment_characters": 4,
+      "target_text_sha256": "e3c3051024b85d66ef1609fd1acb8189aff753e25eb182e590320287a5764ce3",
+      "target_utf8_bytes": 5230
+    },
+    {
+      "document_id": "UNDP-HDR-2025",
+      "donor_id": "GAO-25-107705__donor",
+      "models": {
+        "gdn": {
+          "action": "prepared_not_submitted",
+          "alignment_metadata_equal": true,
+          "bytes": 120508,
+          "documentary_input_tokens": {
+            "foreign": 33457,
+            "full": 35639,
+            "short": 2207
+          },
+          "serialized_plan_equal": true,
+          "sha256": "0da4b7d4c3f8627cdbae048cc057edf74a79900ef24d097329161dfdd8a20554",
+          "target_tokens": 1120
+        },
+        "mamba": {
+          "action": "prepared_not_submitted",
+          "alignment_metadata_equal": true,
+          "bytes": 112449,
+          "documentary_input_tokens": {
+            "foreign": 29557,
+            "full": 32768,
+            "short": 2048
+          },
+          "serialized_plan_equal": true,
+          "sha256": "710d9434a427cb812237caa5095a50a6840d10052a0de7ee08bfc016a78bb729",
+          "target_tokens": 1023
+        }
+      },
+      "requested_source_char_spans": {
+        "far": [
+          0,
+          142957
+        ],
+        "recent": [
+          142957,
+          148061
+        ],
+        "target": [
+          148061,
+          153158
+        ]
+      },
+      "source_char_spans": {
+        "far": [
+          0,
+          142957
+        ],
+        "recent": [
+          142957,
+          148069
+        ],
+        "target": [
+          148069,
+          153158
+        ]
+      },
+      "target_start_adjustment_characters": 8,
+      "target_text_sha256": "1b98abd8ec66acf0a4d90f74d809a85a9234c9cc2e27e501eefc1bd22d20faf0",
+      "target_utf8_bytes": 5114
+    },
+    {
+      "document_id": "UK-InfectedBlood-2024-v3",
+      "donor_id": "GAO-25-107705__donor",
+      "models": {
+        "gdn": {
+          "action": "prepared_not_submitted",
+          "alignment_metadata_equal": true,
+          "bytes": 120374,
+          "documentary_input_tokens": {
+            "foreign": 35255,
+            "full": 40414,
+            "short": 2734
+          },
+          "serialized_plan_equal": true,
+          "sha256": "54ac67c2fd4726a9d1cb91ff777b6748af78dd2f38453f0d39572301d2318ba8",
+          "target_tokens": 1329
+        },
+        "mamba": {
+          "action": "prepared_not_submitted",
+          "alignment_metadata_equal": true,
+          "bytes": 109169,
+          "documentary_input_tokens": {
+            "foreign": 30665,
+            "full": 32768,
+            "short": 2048
+          },
+          "serialized_plan_equal": true,
+          "sha256": "93ead77841694675f18572655867b3bf969ea6905c06ddb470dfa27bec88b12b",
+          "target_tokens": 1023
+        }
+      },
+      "requested_source_char_spans": {
+        "far": [
+          0,
+          148904
+        ],
+        "recent": [
+          148904,
+          153883
+        ],
+        "target": [
+          153883,
+          158738
+        ]
+      },
+      "source_char_spans": {
+        "far": [
+          0,
+          148904
+        ],
+        "recent": [
+          148904,
+          153889
+        ],
+        "target": [
+          153889,
+          158738
+        ]
+      },
+      "target_start_adjustment_characters": 6,
+      "target_text_sha256": "7db1e41b0bb62034d718d9c66fad52ff26bb3b6dbfb88a26d088be7674eacf8f",
+      "target_utf8_bytes": 4883
+    },
+    {
+      "document_id": "UK-Grenfell-2024-v7",
+      "donor_id": "GAO-25-107705__donor",
+      "models": {
+        "gdn": {
+          "action": "prepared_not_submitted",
+          "alignment_metadata_equal": true,
+          "bytes": 112049,
+          "documentary_input_tokens": {
+            "foreign": 35117,
+            "full": 38316,
+            "short": 2355
+          },
+          "serialized_plan_equal": true,
+          "sha256": "c8636d4776e79d5e6aa6f8162bb29c2ae819b5eae2cc9aab1f7657392bb75ad8",
+          "target_tokens": 1182
+        },
+        "mamba": {
+          "action": "prepared_not_submitted",
+          "alignment_metadata_equal": true,
+          "bytes": 104387,
+          "documentary_input_tokens": {
+            "foreign": 30882,
+            "full": 32768,
+            "short": 2048
+          },
+          "serialized_plan_equal": true,
+          "sha256": "8c61dd6b2a357836301b78cbc58a3608dadaf2bf8ca2a466bd56f5bdddbe1fd3",
+          "target_tokens": 1023
+        }
+      },
+      "requested_source_char_spans": {
+        "far": [
+          0,
+          150164
+        ],
+        "recent": [
+          150164,
+          155049
+        ],
+        "target": [
+          155049,
+          160139
+        ]
+      },
+      "source_char_spans": {
+        "far": [
+          0,
+          150164
+        ],
+        "recent": [
+          150164,
+          155058
+        ],
+        "target": [
+          155058,
+          160139
+        ]
+      },
+      "target_start_adjustment_characters": 9,
+      "target_text_sha256": "b6c8cfe9761501cec8fcde81fabb979d51d3cceace2bdf36acb076ec5a774eaa",
+      "target_utf8_bytes": 5089
+    },
+    {
+      "document_id": "OECD-Employment-2025",
+      "donor_id": "GAO-25-107705__donor",
+      "models": {
+        "gdn": {
+          "action": "prepared_not_submitted",
+          "alignment_metadata_equal": true,
+          "bytes": 106390,
+          "documentary_input_tokens": {
+            "foreign": 33141,
+            "full": 38100,
+            "short": 2365
+          },
+          "serialized_plan_equal": true,
+          "sha256": "b3e19f8a604d00e382ca7298d84b928a8a42bc3185cd2e4cc02a3247915bae43",
+          "target_tokens": 1206
+        },
+        "mamba": {
+          "action": "prepared_not_submitted",
+          "alignment_metadata_equal": true,
+          "bytes": 97474,
+          "documentary_input_tokens": {
+            "foreign": 29137,
+            "full": 32768,
+            "short": 2048
+          },
+          "serialized_plan_equal": true,
+          "sha256": "6c8879fd4f6da3ed9b846525a4770dab7714c4e6f0fe507f3a3d834ba9fb1064",
+          "target_tokens": 1023
+        }
+      },
+      "requested_source_char_spans": {
+        "far": [
+          0,
+          140739
+        ],
+        "recent": [
+          140739,
+          146076
+        ],
+        "target": [
+          146076,
+          150695
+        ]
+      },
+      "source_char_spans": {
+        "far": [
+          0,
+          140739
+        ],
+        "recent": [
+          140739,
+          146080
+        ],
+        "target": [
+          146080,
+          150695
+        ]
+      },
+      "target_start_adjustment_characters": 4,
+      "target_text_sha256": "172852871b72109b215143890ff93d0942fb0887732a5d462584b15364ad2ee8",
+      "target_utf8_bytes": 4632
+    },
+    {
+      "document_id": "Australia-NDIS-2023",
+      "donor_id": "GAO-25-107705__donor",
+      "models": {
+        "gdn": {
+          "action": "prepared_not_submitted",
+          "alignment_metadata_equal": true,
+          "bytes": 112994,
+          "documentary_input_tokens": {
+            "foreign": 38486,
+            "full": 35107,
+            "short": 2150
+          },
+          "serialized_plan_equal": true,
+          "sha256": "8bdee5deda39f147a5a98d9e302dffc6533238cec2b89fe8970214a5b1e8895d",
+          "target_tokens": 1082
+        },
+        "mamba": {
+          "action": "prepared_not_submitted",
+          "alignment_metadata_equal": true,
+          "bytes": 105040,
+          "documentary_input_tokens": {
+            "foreign": 34082,
+            "full": 32768,
+            "short": 2048
+          },
+          "serialized_plan_equal": true,
+          "sha256": "a9228b45506f8c84edf4717bc8a13f133d51748b1a0a7e1ea48eb42963d1a305",
+          "target_tokens": 1024
+        }
+      },
+      "requested_source_char_spans": {
+        "far": [
+          0,
+          167638
+        ],
+        "recent": [
+          167638,
+          173333
+        ],
+        "target": [
+          173333,
+          178639
+        ]
+      },
+      "source_char_spans": {
+        "far": [
+          0,
+          167638
+        ],
+        "recent": [
+          167638,
+          173333
+        ],
+        "target": [
+          173333,
+          178639
+        ]
+      },
+      "target_start_adjustment_characters": 0,
+      "target_text_sha256": "1db25baf743025712302acb294413c07c86674a2c3c728e6242ae005731d3b2a",
+      "target_utf8_bytes": 5316
+    },
+    {
+      "document_id": "OECD-PISA-2022-v2",
+      "donor_id": "GAO-25-107705__donor",
+      "models": {
+        "gdn": {
+          "action": "prepared_not_submitted",
+          "alignment_metadata_equal": true,
+          "bytes": 105801,
+          "documentary_input_tokens": {
+            "foreign": 35191,
+            "full": 37752,
+            "short": 2271
+          },
+          "serialized_plan_equal": true,
+          "sha256": "a8acd9deb6abca558f90012323b3745b1b6a58d1fb58ecb1786308f8e37da123",
+          "target_tokens": 1132
+        },
+        "mamba": {
+          "action": "prepared_not_submitted",
+          "alignment_metadata_equal": true,
+          "bytes": 97092,
+          "documentary_input_tokens": {
+            "foreign": 31030,
+            "full": 32768,
+            "short": 2048
+          },
+          "serialized_plan_equal": true,
+          "sha256": "3d2d8c43026da0848a908482c776dcf9c8d97d6f056e0906e3b4ede9fea08529",
+          "target_tokens": 1023
+        }
+      },
+      "requested_source_char_spans": {
+        "far": [
+          0,
+          150964
+        ],
+        "recent": [
+          150964,
+          156365
+        ],
+        "target": [
+          156365,
+          161370
+        ]
+      },
+      "source_char_spans": {
+        "far": [
+          0,
+          150964
+        ],
+        "recent": [
+          150964,
+          156367
+        ],
+        "target": [
+          156367,
+          161370
+        ]
+      },
+      "target_start_adjustment_characters": 2,
+      "target_text_sha256": "9152ec16bb1b9c40183ff4618c46297c2992a925f2c62c201e71dc6899c82099",
+      "target_utf8_bytes": 5026
+    }
+  ],
+  "elapsed_seconds": 2.5404466970358044,
+  "kind": "matched_text_eight_document_preparation",
+  "limits": [
+    "One fixed donor shared across eight targets; not independent donor samples.",
+    "Foreign prefix matches characters, not native tokens; report actual lengths.",
+    "Byte NLL scores canonical tokenizations, not marginal text probabilities.",
+    "Unequal model size and training; not a controlled architecture ranking."
+  ],
+  "preparation_script_sha256": "badc0440d8feb4585e7f09f6c390ce331446ceccd2eb30d2f5aa665c0e3cc239",
+  "prepared_plans": 16,
+  "prepared_utc": "2026-10-23T22:30:11.455965+00:00",
+  "reused_results": 2,
+  "selection": {
+    "documents": 8,
+    "donor": "GAO-25-107705__donor",
+    "reference_span": {
+      "C": 1024,
+      "E": 32768,
+      "T": 1024,
+      "tokenizer": "mamba"
+    }
+  },
+  "selection_timing": "Eight eligible alignment-report cases fixed before the 14 additional scores; the IEA pilot is already known.",
+  "source_panel_sha256": "ae7c844916fc9b2e4a0400866059539282151046f071182636bcc717bc9a11fa",
+  "source_revision": "0163794a",
+  "status": "prepared_not_submitted",
+  "tokenizers": {
+    "gdn": {
+      "file": "hf/hub/models--linear-moe-hub--Gated-Deltanet-340M/snapshots/c83bdada453cde56932f37be71338df22ca29b7d/tokenizer.json",
+      "reference": {
+        "model_id": "linear-moe-hub/Gated-Deltanet-340M",
+        "revision": "c83bdada453cde56932f37be71338df22ca29b7d",
+        "tokenizer_id": "linear-moe-hub/Gated-Deltanet-340M",
+        "tokenizer_revision": "c83bdada453cde56932f37be71338df22ca29b7d"
+      },
+      "sha256": "a2699839c243202a04a90537576fc719283f638e90fe80feb469888275289575"
+    },
+    "mamba": {
+      "file": "hf/hub/models--EleutherAI--gpt-neox-20b/snapshots/c292233c833e336628618a88a648727eb3dff0a7/tokenizer.json",
+      "reference": {
+        "model_id": "state-spaces/mamba2-130m",
+        "revision": "3a5aea0c25d0fb43cc360e2c2aac82c26e3eed49",
+        "tokenizer_id": "EleutherAI/gpt-neox-20b",
+        "tokenizer_revision": "c292233c833e336628618a88a648727eb3dff0a7"
+      },
+      "sha256": "c24618a1b3e6a38167beff1c72cffd126c3a66254347304b50547d12c5f25624"
+    }
+  }
+}

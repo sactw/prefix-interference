@@ -1,0 +1,81 @@
+[
+  {
+    "document_id": "UN-WESP-2025",
+    "domain": "global economic outlook",
+    "product_url": "https://desapublications.un.org/publications/world-economic-situation-and-prospects-2025",
+    "publication_date": "2025-01",
+    "title": "World Economic Situation and Prospects 2025",
+    "url": "https://www.un.org/development/desa/dpad/wp-content/uploads/sites/45/WESP-2025_WEB.pdf"
+  },
+  {
+    "document_id": "EU-Draghi-2024-B",
+    "domain": "industrial policy and technology",
+    "product_url": "https://commission.europa.eu/topics/competitiveness/draghi-report_en",
+    "publication_date": "2024-09-09",
+    "title": "The future of European competitiveness: Part B, In-depth analysis and recommendations",
+    "url": "https://commission.europa.eu/document/download/ec1409c1-d4b4-4882-8bdd-3519f86bbb92_en?filename=The%20future%20of%20European%20competitiveness_%20In-depth%20analysis%20and%20recommendations_0.pdf"
+  },
+  {
+    "document_id": "UK-CovidInquiry-2024-M1",
+    "domain": "public health preparedness",
+    "product_url": "https://www.gov.uk/government/publications/uk-covid-19-inquiry-resilience-and-preparedness-module-1-report",
+    "publication_date": "2024-07-18",
+    "title": "UK Covid-19 Inquiry Module 1: The resilience and preparedness of the United Kingdom",
+    "url": "https://covid19.public-inquiry.uk/wp-content/uploads/2024/07/18095012/UK-Covid-19-Inquiry-Module-1-Full-Report.pdf"
+  },
+  {
+    "document_id": "UNCTAD-DigitalEconomy-2024",
+    "domain": "digital economy and environment",
+    "product_url": "https://unctad.org/publication/digital-economy-report-2024",
+    "publication_date": "2024-07-10",
+    "title": "Digital Economy Report 2024: Shaping an environmentally sustainable and inclusive digital future",
+    "url": "https://unctad.org/system/files/official-document/der2024_en.pdf"
+  },
+  {
+    "document_id": "UK-AISafety-2025",
+    "domain": "AI safety research",
+    "product_url": "https://arxiv.org/abs/2501.17805",
+    "publication_date": "2025-01-29",
+    "source_note": "Official gov.uk PDF URL now redirects to project homepage; author-posted report from arXiv used instead.",
+    "title": "International AI Safety Report 2025",
+    "url": "https://arxiv.org/pdf/2501.17805"
+  },
+  {
+    "document_id": "UNESCO-Water-2025",
+    "domain": "water, mountains and environment",
+    "exclusion_reason": "Inspection before scoring: fixed recent/target spans at E32768 cross a lengthy bibliography; unsuitable for this prose replication. No shifted target selected.",
+    "include_in_panel": false,
+    "product_url": "https://www.unesco.org/en/reports/wwdr/2025",
+    "publication_date": "2025-03",
+    "source_note": "PDF hosted by the German Commission for UNESCO.",
+    "title": "The United Nations World Water Development Report 2025: Mountains and glaciers, Water towers",
+    "url": "https://www.unesco.de/assets/dokumente/UNESCO/01_Publikationen/WWDR_2025_report_EN_WEB.pdf"
+  },
+  {
+    "document_id": "IOM-Migration-2024",
+    "domain": "migration and human mobility",
+    "product_url": "https://worldmigrationreport.iom.int/",
+    "publication_date": "2024-05",
+    "title": "World Migration Report 2024",
+    "url": "https://publications.iom.int/system/files/pdf/pub2023-047-l-world-migration-report-2024_8.pdf"
+  },
+  {
+    "document_id": "Australia-CovidInquiry-2024",
+    "domain": "public health and emergency response",
+    "product_url": "https://www.pmc.gov.au/domestic-policy/commonwealth-government-covid-19-response-inquiry",
+    "publication_date": "2024-10-29",
+    "title": "COVID-19 Response Inquiry Report",
+    "url": "https://www.pmc.gov.au/sites/default/files/resource/download/covid-19-response-inquiry-report.pdf"
+  },
+  {
+    "document_id": "ILO-WESO-2025",
+    "domain": "employment and social conditions",
+    "exclusion_reason": "Not included in this bounded replication: four previously prepared eligible targets were fixed before scoring; no model result used in this choice.",
+    "include_in_panel": false,
+    "product_url": "https://www.ilo.org/publications/flagship-reports/world-employment-and-social-outlook-trends-2025",
+    "publication_date": "2025-01-16",
+    "source_note": "ILO report hosted by United Nations Brazil.",
+    "title": "World Employment and Social Outlook: Trends 2025",
+    "url": "https://brasil.un.org/sites/default/files/2025-01/WESO25_Trends_Report_ENGLISH.pdf"
+  }
+]

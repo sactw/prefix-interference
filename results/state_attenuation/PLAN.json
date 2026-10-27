@@ -1,0 +1,19 @@
+{
+  "alphas": [
+    1,
+    0.5,
+    0
+  ],
+  "analysis": "Paired document bootstrap; separate alpha effects, original-versus-foreign and short comparison.",
+  "expected_total_documents": 8,
+  "kind": "old_ssm_state_attenuation_panel",
+  "limits": [
+    "Selected after one-document pilot; exploratory.",
+    "Scale old SSM caches only; retain convolution caches and offsets.",
+    "Alpha0 is not the fresh short baseline.",
+    "No claim of unique finite-capacity cause or restored useful distant content."
+  ],
+  "new_cells": 14,
+  "reason": "Paired IEA pilot preserved alpha1 numerics and showed a large effect; test replication.",
+  "selection": "All eight original matched-text donor1 documents; completed IEA pilot reused."
+}

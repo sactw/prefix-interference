@@ -1,0 +1,28 @@
+{
+  "donor_id": "GAO-25-107705__donor",
+  "donor_native_tokens": 181797,
+  "donor_policy": "Exact existing GAO donor text, shared across all replication targets.",
+  "donor_text_sha256": "b9fe40e40410baeedae994bbef50d74a64447bb7ab25ab1f4a01c69ca569c5b4",
+  "excluded_previous_targets": [
+    "Australia-NDIS-2023",
+    "IEA-WEO-2025",
+    "OECD-Employment-2025",
+    "OECD-PISA-2022-v2",
+    "UK-Grenfell-2024-v7",
+    "UK-InfectedBlood-2024-v3",
+    "UNDP-HDR-2025",
+    "WorldBank-WDR-2025"
+  ],
+  "input_bytes": 3982335,
+  "input_sha256": "44624fbe1fc5d0241e1bb70009776f1f44e8974fa3db40c61f557ef8e33efec5",
+  "prepared_at": "2026-10-24T11:11:07.655405+00:00",
+  "scope": "Filtered public report prose. Fresh to this study, not proven pretraining-unseen. Reports can quote/reuse earlier text.",
+  "selection": "Explicit fresh source list; >=32768 native tokens and readable extraction only, no model scores used.",
+  "source_list_sha256": "a3ee780289c0e9bb4da64c258205854bde1f115dc0863b37a25b03d7f2ea4f8b",
+  "target_document_ids": [
+    "UN-WESP-2025",
+    "EU-Draghi-2024-B",
+    "UNCTAD-DigitalEconomy-2024",
+    "UK-AISafety-2025"
+  ]
+}

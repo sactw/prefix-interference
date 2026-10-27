@@ -1,0 +1,1878 @@
+{
+  "aggregation": "token_weighted",
+  "blocks": 2,
+  "bootstrap": {
+    "confidence": 0.95,
+    "method": "paired_document_cluster_percentile_ratio",
+    "samples": 2000,
+    "seed": 20261020
+  },
+  "ce": {
+    "foreign": {
+      "bootstrap_empty": 0,
+      "bootstrap_valid": 2000,
+      "ci95": [
+        2.0477750318862036,
+        2.4702653207785374
+      ],
+      "mean": 2.2590201763323705
+    },
+    "full": {
+      "bootstrap_empty": 0,
+      "bootstrap_valid": 2000,
+      "ci95": [
+        1.9824683309282136,
+        2.331436004333483
+      ],
+      "mean": 2.1569521676308483
+    },
+    "short": {
+      "bootstrap_empty": 0,
+      "bootstrap_valid": 2000,
+      "ci95": [
+        2.044999141595781,
+        2.4063755994907012
+      ],
+      "mean": 2.225687370543241
+    }
+  },
+  "documents": 2,
+  "effects": {
+    "N": {
+      "bootstrap_empty": 0,
+      "bootstrap_valid": 2000,
+      "ci95": [
+        0.0625308106675675,
+        0.07493959515721826
+      ],
+      "mean": 0.06873520291239288
+    },
+    "content": {
+      "bootstrap_empty": 0,
+      "bootstrap_valid": 2000,
+      "ci95": [
+        0.06530670095798996,
+        0.13882931644505447
+      ],
+      "mean": 0.10206800870152222
+    },
+    "prefix_penalty": {
+      "bootstrap_empty": 0,
+      "bootstrap_valid": 2000,
+      "ci95": [
+        0.002775890290422467,
+        0.06388972128783621
+      ],
+      "mean": 0.03333280578912934
+    }
+  },
+  "kind": "public_model_development_smoke",
+  "records": [
+    {
+      "document_id": "GAO-25-107024",
+      "file": "block-56db0aadf16c55536068.npz",
+      "metadata": {
+        "backend_comparison": {
+          "mean_effect_absolute_difference": {
+            "N": 1.5937571333779488e-06,
+            "content": 1.524467734270729e-07,
+            "prefix_penalty": 1.4413103599508759e-06
+          },
+          "note": "Engineering diagnostic; these tolerances are provisional, not a scientific significance test.",
+          "per_condition_nll": {
+            "foreign": {
+              "max_abs": 0.0001087188720703125,
+              "mean_abs": 1.381310084980214e-05
+            },
+            "full": {
+              "max_abs": 0.00013399124145507812,
+              "mean_abs": 1.26317663671216e-05
+            },
+            "short": {
+              "max_abs": 0.00012350082397460938,
+              "mean_abs": 1.3859250884706853e-05
+            }
+          },
+          "scope": "first document only",
+          "selected_execution": "full",
+          "tested_document_id": "GAO-25-107024",
+          "timing_scope": "fused prior warm measurements; recovery recurrent one pass per history, fresh process using preserved compiled cache",
+          "tolerances": {
+            "max_abs_nll": 0.001,
+            "mean_abs_nll_and_effect": 0.0001
+          },
+          "within_provisional_tolerances": true
+        },
+        "document_id": "GAO-25-107024",
+        "donor_id": "GAO-25-107468",
+        "execution": "full",
+        "hardware": {
+          "code_revision": "e5d80cd0+recover_ieee.py",
+          "cold_kernel_setup": {
+            "full": {
+              "input_tokens": 65,
+              "peak_allocated_bytes": 787593216,
+              "peak_reserved_bytes": 954204160,
+              "processed_tokens": 64,
+              "processed_tokens_per_second": 0.11944664228488176,
+              "reserved_memory_note": "Includes allocator cache retained from earlier modes in this process.",
+              "scored_targets": 64,
+              "seconds": 535.8040944119566
+            }
+          },
+          "gpu": "NVIDIA GeForce RTX 4090",
+          "load_seconds": 3.738139419001527
+        },
+        "history": {
+          "donor_policy": "single_document_prefix_no_separator",
+          "end_exclusive": 2048,
+          "far_prefix_tokens": 1408,
+          "input_lengths": {
+            "foreign": 2049,
+            "full": 2049,
+            "short": 641
+          },
+          "prefix_id": 0,
+          "protocol": "fixed_target_block_v1",
+          "recent_prefix_tokens": 512,
+          "retained_start": 1408,
+          "target_starts": {
+            "foreign": 1921,
+            "full": 1921,
+            "short": 513
+          },
+          "target_tokens": 128
+        },
+        "kind": "public_model_development_smoke",
+        "measurements": {
+          "full": {
+            "foreign": {
+              "first_pass": {
+                "input_tokens": 2049,
+                "peak_allocated_bytes": 633732608,
+                "peak_reserved_bytes": 954204160,
+                "processed_tokens": 2048,
+                "processed_tokens_per_second": 39004.37893557313,
+                "reserved_memory_note": "Includes allocator cache retained from earlier modes in this process.",
+                "scored_targets": 128,
+                "seconds": 0.05250692501431331
+              },
+              "input_tokens": 2049,
+              "peak_allocated_bytes": 633732608,
+              "peak_reserved_bytes": 954204160,
+              "processed_tokens": 2048,
+              "processed_tokens_per_second": 40156.35329954797,
+              "reserved_memory_note": "Includes allocator cache retained from earlier modes in this process.",
+              "scored_targets": 128,
+              "seconds": 0.05100064701400697
+            },
+            "full": {
+              "first_pass": {
+                "input_tokens": 2049,
+                "peak_allocated_bytes": 633732608,
+                "peak_reserved_bytes": 954204160,
+                "processed_tokens": 2048,
+                "processed_tokens_per_second": 4643.064875091078,
+                "reserved_memory_note": "Includes allocator cache retained from earlier modes in this process.",
+                "scored_targets": 128,
+                "seconds": 0.44108795700594783
+              },
+              "input_tokens": 2049,
+              "peak_allocated_bytes": 633732608,
+              "peak_reserved_bytes": 954204160,
+              "processed_tokens": 2048,
+              "processed_tokens_per_second": 37049.0476954186,
+              "reserved_memory_note": "Includes allocator cache retained from earlier modes in this process.",
+              "scored_targets": 128,
+              "seconds": 0.055278073996305466
+            },
+            "short": {
+              "first_pass": {
+                "input_tokens": 641,
+                "peak_allocated_bytes": 580941824,
+                "peak_reserved_bytes": 954204160,
+                "processed_tokens": 640,
+                "processed_tokens_per_second": 12228.8587365384,
+                "reserved_memory_note": "Includes allocator cache retained from earlier modes in this process.",
+                "scored_targets": 128,
+                "seconds": 0.052335218992084265
+              },
+              "input_tokens": 641,
+              "peak_allocated_bytes": 580941824,
+              "peak_reserved_bytes": 954204160,
+              "processed_tokens": 640,
+              "processed_tokens_per_second": 11710.616402017506,
+              "reserved_memory_note": "Includes allocator cache retained from earlier modes in this process.",
+              "scored_targets": 128,
+              "seconds": 0.054651264974381775
+            }
+          },
+          "recurrent": {
+            "foreign": {
+              "input_tokens": 2049,
+              "peak_allocated_bytes": 559385088,
+              "peak_reserved_bytes": 979369984,
+              "processed_tokens": 2048,
+              "processed_tokens_per_second": 41.70441538533361,
+              "reserved_memory_note": "Includes allocator cache retained from earlier modes in this process.",
+              "scored_targets": 128,
+              "seconds": 49.10751010599779
+            },
+            "full": {
+              "input_tokens": 2049,
+              "peak_allocated_bytes": 794588672,
+              "peak_reserved_bytes": 979369984,
+              "processed_tokens": 2048,
+              "processed_tokens_per_second": 41.464010545773846,
+              "reserved_memory_note": "Includes allocator cache retained from earlier modes in this process.",
+              "scored_targets": 128,
+              "seconds": 49.39223131199833
+            },
+            "short": {
+              "input_tokens": 641,
+              "peak_allocated_bytes": 559385088,
+              "peak_reserved_bytes": 979369984,
+              "processed_tokens": 640,
+              "processed_tokens_per_second": 51.626822191909824,
+              "reserved_memory_note": "Includes allocator cache retained from earlier modes in this process.",
+              "scored_targets": 128,
+              "seconds": 12.396656869968865
+            }
+          }
+        },
+        "model": {
+          "backend": "mamba_ssm native Mamba2",
+          "boundary_token_id": 0,
+          "compiler_mode": "native CUDA/Triton kernels; Python orchestration; no torch.compile",
+          "cuda_runtime": "12.4",
+          "device": "cuda",
+          "dtype": "float32",
+          "execution_modes": {
+            "score": {
+              "continuation": "one token per native cache step",
+              "fused_step_available": true,
+              "memory": "fixed recurrent state plus bounded prefill activations/logits",
+              "prefill": "native SSD chunk scan",
+              "prefill_fused_convolution": true
+            },
+            "score_full": {
+              "forward": "native fused mamba_split_conv1d_scan_combined",
+              "memory": "full-sequence hidden activations; chunked target logits"
+            }
+          },
+          "long_context_status": "Prepared for short GPU parity/smoke only; efficient 200K-1M chunked carry is not implemented or validated.",
+          "loss_dtype": "float32",
+          "model_id": "state-spaces/mamba2-130m",
+          "parameters": 128989632,
+          "revision": "3a5aea0c25d0fb43cc360e2c2aac82c26e3eed49",
+          "special_tokens": "encode adds none; caller supplies one EOS boundary per history",
+          "stored_dtypes": [
+            "torch.float16",
+            "torch.float32"
+          ],
+          "tokenizer_id": "EleutherAI/gpt-neox-20b",
+          "tokenizer_revision": "c292233c833e336628618a88a648727eb3dff0a7",
+          "torch_cudnn_tf32": false,
+          "torch_matmul_tf32": false,
+          "triton_environment": {
+            "TRITON_F32_DEFAULT": "ieee"
+          },
+          "triton_fp32_dot_precision": "ieee",
+          "versions": {
+            "causal-conv1d": "1.5.3.post1",
+            "mamba-ssm": "2.2.6.post3",
+            "torch": "2.4.1+cu124",
+            "transformers": "4.44.2",
+            "triton": "3.0.0"
+          },
+          "vocabulary_normalization": "all native lm_head output classes, including padding"
+        },
+        "recovery": "recover_ieee.py; preserved completed fused triplet; regenerated missing recurrent triplet once",
+        "schema_version": 1,
+        "selected_execution": "full",
+        "source": {
+          "character_count": 45045,
+          "detected_encoding": "utf-8",
+          "extraction": "gao_letter_prose_v1: after h2 Letter, skip date/addressees until the first MsoBodyText paragraph >=200 characters that does not start The Honorable; retain non-table MsoBodyText/MsoListBullet paragraphs and h3/h4 headings; remove numeric footnote-link anchors; collapse whitespace within blocks; stop before the next h2 or the distribution/contact closing; join blocks with two newlines. Omit the standardized We conducted this performance audit paragraph, images, tables, captions, sources and sidebars.",
+          "paragraph_or_heading_count": 81,
+          "replacement_character_count": 0,
+          "retrieved_at": "2026-10-20T15:32:18.851029+00:00",
+          "source_bytes": 398543,
+          "source_sha256": "469145b1de54ea4f1cd3d47ddfb65b752adf9698cec19ffa647f9d02a49542ab",
+          "stop_before": "As agreed with your offices, unless you publicly announce the contents of this report earlier, we plan no further distribution until 27 days from the report date. At that time, we will send copies of this report to the appropriate congressional committees, the Secretaries of Education and Health and Human Services, and other interested parties. In addition, the report will be available at no charge on the GAO website at http://www.gao.gov.",
+          "text_sha256": "201cde5907e408c1f32c9f262bd24899fc7d2d9547894b0d5ede27b36a5837e1",
+          "url": "https://files.gao.gov/reports/GAO-25-107024/index.html",
+          "word_count": 6807
+        }
+      }
+    },
+    {
+      "document_id": "GAO-25-107363",
+      "file": "block-0709f795743fa8055f35.npz",
+      "metadata": {
+        "backend_comparison": {
+          "mean_effect_absolute_difference": {
+            "N": 1.5937571333779488e-06,
+            "content": 1.524467734270729e-07,
+            "prefix_penalty": 1.4413103599508759e-06
+          },
+          "note": "Engineering diagnostic; these tolerances are provisional, not a scientific significance test.",
+          "per_condition_nll": {
+            "foreign": {
+              "max_abs": 0.0001087188720703125,
+              "mean_abs": 1.381310084980214e-05
+            },
+            "full": {
+              "max_abs": 0.00013399124145507812,
+              "mean_abs": 1.26317663671216e-05
+            },
+            "short": {
+              "max_abs": 0.00012350082397460938,
+              "mean_abs": 1.3859250884706853e-05
+            }
+          },
+          "scope": "first document only",
+          "selected_execution": "full",
+          "tested_document_id": "GAO-25-107024",
+          "timing_scope": "fused prior warm measurements; recovery recurrent one pass per history, fresh process using preserved compiled cache",
+          "tolerances": {
+            "max_abs_nll": 0.001,
+            "mean_abs_nll_and_effect": 0.0001
+          },
+          "within_provisional_tolerances": true
+        },
+        "chunk_size": 256,
+        "document_id": "GAO-25-107363",
+        "donor_id": "GAO-25-107226",
+        "donor_source": {
+          "character_count": 44516,
+          "detected_encoding": "utf-8",
+          "extraction": "gao_letter_prose_v1: after h2 Letter, skip date/addressees until the first MsoBodyText paragraph >=200 characters that does not start The Honorable; retain non-table MsoBodyText/MsoListBullet paragraphs and h3/h4 headings; remove numeric footnote-link anchors; collapse whitespace within blocks; stop before the next h2 or the distribution/contact closing; join blocks with two newlines. Omit the standardized We conducted this performance audit paragraph, images, tables, captions, sources and sidebars.",
+          "paragraph_or_heading_count": 83,
+          "replacement_character_count": 0,
+          "retrieved_at": "2026-10-20T15:32:21.057089+00:00",
+          "source_bytes": 171586,
+          "source_sha256": "63fe9c821d86645a3a31691f6211a3c2f4e5551f7c4858357f77447810f200b5",
+          "stop_before": "We are sending copies of this report to the appropriate congressional committees, the Secretary of HHS, and other interested parties. In addition, the report is available at no charge on the GAO website at http://www.gao.gov.",
+          "text_sha256": "82a66f87945add5e08eaf4e5d546813cbc74a353b460ee6260feec075ca723d5",
+          "url": "https://files.gao.gov/reports/GAO-25-107226/index.html",
+          "word_count": 6470
+        },
+        "donor_text_sha256": "82a66f87945add5e08eaf4e5d546813cbc74a353b460ee6260feec075ca723d5",
+        "elapsed_since_model_load_start_seconds": 276.7286368199857,
+        "hardware": {
+          "code_revision": "e5d80cd0+recover_ieee.py",
+          "cold_kernel_setup": {
+            "full": {
+              "input_tokens": 65,
+              "peak_allocated_bytes": 787593216,
+              "peak_reserved_bytes": 954204160,
+              "processed_tokens": 64,
+              "processed_tokens_per_second": 0.8881573694573814,
+              "reserved_memory_note": "Includes allocator cache retained from earlier modes in this process.",
+              "scored_targets": 64,
+              "seconds": 72.05930187698686
+            }
+          },
+          "gpu": "NVIDIA GeForce RTX 4090",
+          "load_seconds": 9.761356000963133
+        },
+        "history": {
+          "donor_policy": "single_document_prefix_no_separator",
+          "end_exclusive": 2048,
+          "far_prefix_tokens": 1408,
+          "input_lengths": {
+            "foreign": 2049,
+            "full": 2049,
+            "short": 641
+          },
+          "prefix_id": 0,
+          "protocol": "fixed_target_block_v1",
+          "recent_prefix_tokens": 512,
+          "retained_start": 1408,
+          "target_starts": {
+            "foreign": 1921,
+            "full": 1921,
+            "short": 513
+          },
+          "target_tokens": 128
+        },
+        "kind": "public_model_development_smoke",
+        "measurements": {
+          "full": {
+            "foreign": {
+              "input_tokens": 2049,
+              "peak_allocated_bytes": 633732608,
+              "peak_reserved_bytes": 979369984,
+              "processed_tokens": 2048,
+              "processed_tokens_per_second": 40869.47576273069,
+              "reserved_memory_note": "Includes allocator cache retained from earlier modes in this process.",
+              "scored_targets": 128,
+              "seconds": 0.050110747979488224
+            },
+            "full": {
+              "input_tokens": 2049,
+              "peak_allocated_bytes": 633732608,
+              "peak_reserved_bytes": 979369984,
+              "processed_tokens": 2048,
+              "processed_tokens_per_second": 33907.57894840233,
+              "reserved_memory_note": "Includes allocator cache retained from earlier modes in this process.",
+              "scored_targets": 128,
+              "seconds": 0.06039947597309947
+            },
+            "short": {
+              "input_tokens": 641,
+              "peak_allocated_bytes": 580941824,
+              "peak_reserved_bytes": 979369984,
+              "processed_tokens": 640,
+              "processed_tokens_per_second": 12738.248537385614,
+              "reserved_memory_note": "Includes allocator cache retained from earlier modes in this process.",
+              "scored_targets": 128,
+              "seconds": 0.05024238600162789
+            }
+          }
+        },
+        "model": {
+          "backend": "mamba_ssm native Mamba2",
+          "boundary_token_id": 0,
+          "compiler_mode": "native CUDA/Triton kernels; Python orchestration; no torch.compile",
+          "cuda_runtime": "12.4",
+          "device": "cuda",
+          "dtype": "float32",
+          "execution_modes": {
+            "score": {
+              "continuation": "one token per native cache step",
+              "fused_step_available": true,
+              "memory": "fixed recurrent state plus bounded prefill activations/logits",
+              "prefill": "native SSD chunk scan",
+              "prefill_fused_convolution": true
+            },
+            "score_full": {
+              "forward": "native fused mamba_split_conv1d_scan_combined",
+              "memory": "full-sequence hidden activations; chunked target logits"
+            }
+          },
+          "long_context_status": "Prepared for short GPU parity/smoke only; efficient 200K-1M chunked carry is not implemented or validated.",
+          "loss_dtype": "float32",
+          "model_id": "state-spaces/mamba2-130m",
+          "parameters": 128989632,
+          "revision": "3a5aea0c25d0fb43cc360e2c2aac82c26e3eed49",
+          "special_tokens": "encode adds none; caller supplies one EOS boundary per history",
+          "stored_dtypes": [
+            "torch.float16",
+            "torch.float32"
+          ],
+          "tokenizer_id": "EleutherAI/gpt-neox-20b",
+          "tokenizer_revision": "c292233c833e336628618a88a648727eb3dff0a7",
+          "torch_cudnn_tf32": false,
+          "torch_matmul_tf32": false,
+          "triton_environment": {
+            "TRITON_F32_DEFAULT": "ieee"
+          },
+          "triton_fp32_dot_precision": "ieee",
+          "versions": {
+            "causal-conv1d": "1.5.3.post1",
+            "mamba-ssm": "2.2.6.post3",
+            "torch": "2.4.1+cu124",
+            "transformers": "4.44.2",
+            "triton": "3.0.0"
+          },
+          "vocabulary_normalization": "all native lm_head output classes, including padding"
+        },
+        "recovery": "recover_ieee.py; preserved completed fused triplet; regenerated missing recurrent triplet once",
+        "schema_version": 1,
+        "selected_execution": "full",
+        "source": {
+          "character_count": 32546,
+          "detected_encoding": "utf-8",
+          "extraction": "gao_letter_prose_v1: after h2 Letter, skip date/addressees until the first MsoBodyText paragraph >=200 characters that does not start The Honorable; retain non-table MsoBodyText/MsoListBullet paragraphs and h3/h4 headings; remove numeric footnote-link anchors; collapse whitespace within blocks; stop before the next h2 or the distribution/contact closing; join blocks with two newlines. Omit the standardized We conducted this performance audit paragraph, images, tables, captions, sources and sidebars.",
+          "paragraph_or_heading_count": 82,
+          "replacement_character_count": 0,
+          "retrieved_at": "2026-10-20T15:32:19.607294+00:00",
+          "source_bytes": 424239,
+          "source_sha256": "3a4af947a804ceed8bb9216f5f598dd0254588c90ea4699502f47feb5da1be03",
+          "stop_before": "We are sending copies of this report to the appropriate congressional committees, the Acting Director of OPM, the Director of OMB, the heads of each of the 23 other CFO Act agencies, and other interested parties. This report will also be available at no charge on the GAO website at http://www.gao.gov. If you or your staffs have any questions about this report, please contact me at LockeD@gao.gov. Contact points for our Offices of Congressional Relations and Public Affairs may be found on the last page of our report. GAO staff who made key contributions to this report are listed in appendix VI.",
+          "text_sha256": "5c94950805931ab2e97cc5e06710aa687301b4906a577f465006c021a67edd26",
+          "url": "https://files.gao.gov/reports/GAO-25-107363/index.html",
+          "word_count": 5018
+        },
+        "text_sha256": "5c94950805931ab2e97cc5e06710aa687301b4906a577f465006c021a67edd26"
+      }
+    }
+  ],
+  "repeat_bins": {
+    "4": {
+      "boundary": {
+        "documents": 0,
+        "effects": {
+          "N": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          },
+          "content": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          }
+        },
+        "share": 0.0,
+        "targets": 0,
+        "weighted_contribution": {
+          "N": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          },
+          "content": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          }
+        }
+      },
+      "far:(0,1024]": {
+        "documents": 1,
+        "effects": {
+          "N": {
+            "bootstrap_empty": 510,
+            "bootstrap_valid": 1490,
+            "ci95": [
+              0.5803054125135532,
+              0.5803054125135532
+            ],
+            "mean": 0.5803054125135532
+          },
+          "content": {
+            "bootstrap_empty": 510,
+            "bootstrap_valid": 1490,
+            "ci95": [
+              0.7503509186062729,
+              0.7503509186062729
+            ],
+            "mean": 0.7503509186062729
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 510,
+            "bootstrap_valid": 1490,
+            "ci95": [
+              0.17004550609271973,
+              0.17004550609271973
+            ],
+            "mean": 0.17004550609271973
+          }
+        },
+        "share": 0.03125,
+        "targets": 8,
+        "weighted_contribution": {
+          "N": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.03626908828209707
+            ],
+            "mean": 0.018134544141048536
+          },
+          "content": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.046896932412892056
+            ],
+            "mean": 0.023448466206446028
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.010627844130794983
+            ],
+            "mean": 0.005313922065397492
+          }
+        }
+      },
+      "far:(1024,4096]": {
+        "documents": 1,
+        "effects": {
+          "N": {
+            "bootstrap_empty": 491,
+            "bootstrap_valid": 1509,
+            "ci95": [
+              0.7858031094074249,
+              0.7858031094074249
+            ],
+            "mean": 0.7858031094074249
+          },
+          "content": {
+            "bootstrap_empty": 491,
+            "bootstrap_valid": 1509,
+            "ci95": [
+              1.1505820353825886,
+              1.1505820353825886
+            ],
+            "mean": 1.1505820353825886
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 491,
+            "bootstrap_valid": 1509,
+            "ci95": [
+              0.36477892597516376,
+              0.36477892597516376
+            ],
+            "mean": 0.36477892597516376
+          }
+        },
+        "share": 0.01171875,
+        "targets": 3,
+        "weighted_contribution": {
+          "N": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.01841726037673652
+            ],
+            "mean": 0.00920863018836826
+          },
+          "content": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.026966766454279423
+            ],
+            "mean": 0.013483383227139711
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.008549506077542901
+            ],
+            "mean": 0.0042747530387714505
+          }
+        }
+      },
+      "far:(1048576,inf)": {
+        "documents": 0,
+        "effects": {
+          "N": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          },
+          "content": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          }
+        },
+        "share": 0.0,
+        "targets": 0,
+        "weighted_contribution": {
+          "N": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          },
+          "content": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          }
+        }
+      },
+      "far:(16384,65536]": {
+        "documents": 0,
+        "effects": {
+          "N": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          },
+          "content": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          }
+        },
+        "share": 0.0,
+        "targets": 0,
+        "weighted_contribution": {
+          "N": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          },
+          "content": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          }
+        }
+      },
+      "far:(262144,524288]": {
+        "documents": 0,
+        "effects": {
+          "N": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          },
+          "content": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          }
+        },
+        "share": 0.0,
+        "targets": 0,
+        "weighted_contribution": {
+          "N": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          },
+          "content": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          }
+        }
+      },
+      "far:(4096,16384]": {
+        "documents": 0,
+        "effects": {
+          "N": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          },
+          "content": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          }
+        },
+        "share": 0.0,
+        "targets": 0,
+        "weighted_contribution": {
+          "N": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          },
+          "content": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          }
+        }
+      },
+      "far:(524288,1048576]": {
+        "documents": 0,
+        "effects": {
+          "N": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          },
+          "content": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          }
+        },
+        "share": 0.0,
+        "targets": 0,
+        "weighted_contribution": {
+          "N": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          },
+          "content": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          }
+        }
+      },
+      "far:(65536,262144]": {
+        "documents": 0,
+        "effects": {
+          "N": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          },
+          "content": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          }
+        },
+        "share": 0.0,
+        "targets": 0,
+        "weighted_contribution": {
+          "N": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          },
+          "content": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          }
+        }
+      },
+      "incomplete_ngram": {
+        "documents": 0,
+        "effects": {
+          "N": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          },
+          "content": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          }
+        },
+        "share": 0.0,
+        "targets": 0,
+        "weighted_contribution": {
+          "N": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          },
+          "content": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          }
+        }
+      },
+      "never": {
+        "documents": 2,
+        "effects": {
+          "N": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.030384136552787946,
+              0.0603190176615201
+            ],
+            "mean": 0.045155497099891584
+          },
+          "content": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.02557744159250809,
+              0.10245013339143011
+            ],
+            "mean": 0.06351025457625563
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              -0.004806694960279856,
+              0.042131115729910004
+            ],
+            "mean": 0.018354757476364048
+          }
+        },
+        "share": 0.89453125,
+        "targets": 229,
+        "weighted_contribution": {
+          "N": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.027535623750964078,
+              0.05325038277931071
+            ],
+            "mean": 0.040393003265137395
+          },
+          "content": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.02317955644321046,
+              0.09044425838462189
+            ],
+            "mean": 0.056811907413916174
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              -0.004356067307753619,
+              0.03719387560531118
+            ],
+            "mean": 0.01641890414877878
+          }
+        }
+      },
+      "recent": {
+        "documents": 2,
+        "effects": {
+          "N": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              -0.040764843695797026,
+              0.03490082134582432
+            ],
+            "mean": 0.015984405085418985
+          },
+          "content": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              -0.15263321273960173,
+              0.2284617771323004
+            ],
+            "mean": 0.13318802966432486
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              -0.1118683690438047,
+              0.19356095578647606
+            ],
+            "mean": 0.11720362457890587
+          }
+        },
+        "share": 0.0625,
+        "targets": 16,
+        "weighted_contribution": {
+          "N": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              -0.001273901365493657,
+              0.00327195200117103
+            ],
+            "mean": 0.0009990253178386865
+          },
+          "content": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              -0.004769787898112554,
+              0.02141829160615316
+            ],
+            "mean": 0.008324251854020304
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              -0.003495886532618897,
+              0.01814633960498213
+            ],
+            "mean": 0.007325226536181617
+          }
+        }
+      }
+    },
+    "8": {
+      "boundary": {
+        "documents": 0,
+        "effects": {
+          "N": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          },
+          "content": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          }
+        },
+        "share": 0.0,
+        "targets": 0,
+        "weighted_contribution": {
+          "N": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          },
+          "content": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          }
+        }
+      },
+      "far:(0,1024]": {
+        "documents": 1,
+        "effects": {
+          "N": {
+            "bootstrap_empty": 510,
+            "bootstrap_valid": 1490,
+            "ci95": [
+              1.4125580489635468,
+              1.4125580489635468
+            ],
+            "mean": 1.4125580489635468
+          },
+          "content": {
+            "bootstrap_empty": 510,
+            "bootstrap_valid": 1490,
+            "ci95": [
+              1.9890025556087494,
+              1.9890025556087494
+            ],
+            "mean": 1.9890025556087494
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 510,
+            "bootstrap_valid": 1490,
+            "ci95": [
+              0.5764445066452026,
+              0.5764445066452026
+            ],
+            "mean": 0.5764445066452026
+          }
+        },
+        "share": 0.0078125,
+        "targets": 2,
+        "weighted_contribution": {
+          "N": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.022071219515055418
+            ],
+            "mean": 0.011035609757527709
+          },
+          "content": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.03107816493138671
+            ],
+            "mean": 0.015539082465693355
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.009006945416331291
+            ],
+            "mean": 0.004503472708165646
+          }
+        }
+      },
+      "far:(1024,4096]": {
+        "documents": 1,
+        "effects": {
+          "N": {
+            "bootstrap_empty": 491,
+            "bootstrap_valid": 1509,
+            "ci95": [
+              0.04420222155749798,
+              0.04420222155749798
+            ],
+            "mean": 0.04420222155749798
+          },
+          "content": {
+            "bootstrap_empty": 491,
+            "bootstrap_valid": 1509,
+            "ci95": [
+              0.10039313696324825,
+              0.10039313696324825
+            ],
+            "mean": 0.10039313696324825
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 491,
+            "bootstrap_valid": 1509,
+            "ci95": [
+              0.056190915405750275,
+              0.056190915405750275
+            ],
+            "mean": 0.056190915405750275
+          }
+        },
+        "share": 0.00390625,
+        "targets": 1,
+        "weighted_contribution": {
+          "N": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.00034532985591795295
+            ],
+            "mean": 0.00017266492795897648
+          },
+          "content": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.000784321382525377
+            ],
+            "mean": 0.0003921606912626885
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.000438991526607424
+            ],
+            "mean": 0.000219495763303712
+          }
+        }
+      },
+      "far:(1048576,inf)": {
+        "documents": 0,
+        "effects": {
+          "N": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          },
+          "content": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          }
+        },
+        "share": 0.0,
+        "targets": 0,
+        "weighted_contribution": {
+          "N": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          },
+          "content": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          }
+        }
+      },
+      "far:(16384,65536]": {
+        "documents": 0,
+        "effects": {
+          "N": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          },
+          "content": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          }
+        },
+        "share": 0.0,
+        "targets": 0,
+        "weighted_contribution": {
+          "N": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          },
+          "content": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          }
+        }
+      },
+      "far:(262144,524288]": {
+        "documents": 0,
+        "effects": {
+          "N": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          },
+          "content": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          }
+        },
+        "share": 0.0,
+        "targets": 0,
+        "weighted_contribution": {
+          "N": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          },
+          "content": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          }
+        }
+      },
+      "far:(4096,16384]": {
+        "documents": 0,
+        "effects": {
+          "N": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          },
+          "content": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          }
+        },
+        "share": 0.0,
+        "targets": 0,
+        "weighted_contribution": {
+          "N": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          },
+          "content": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          }
+        }
+      },
+      "far:(524288,1048576]": {
+        "documents": 0,
+        "effects": {
+          "N": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          },
+          "content": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          }
+        },
+        "share": 0.0,
+        "targets": 0,
+        "weighted_contribution": {
+          "N": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          },
+          "content": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          }
+        }
+      },
+      "far:(65536,262144]": {
+        "documents": 0,
+        "effects": {
+          "N": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          },
+          "content": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          }
+        },
+        "share": 0.0,
+        "targets": 0,
+        "weighted_contribution": {
+          "N": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          },
+          "content": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          }
+        }
+      },
+      "incomplete_ngram": {
+        "documents": 0,
+        "effects": {
+          "N": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          },
+          "content": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 2000,
+            "bootstrap_valid": 0,
+            "ci95": null,
+            "mean": null
+          }
+        },
+        "share": 0.0,
+        "targets": 0,
+        "weighted_contribution": {
+          "N": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          },
+          "content": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0
+          }
+        }
+      },
+      "never": {
+        "documents": 2,
+        "effects": {
+          "N": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.04110180688509163,
+              0.07577233381461054
+            ],
+            "mean": 0.058437070349851086
+          },
+          "content": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.03477184612226362,
+              0.14022817163932483
+            ],
+            "mean": 0.08750000888079422
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              -0.006329960762828012,
+              0.06445583782471427
+            ],
+            "mean": 0.02906293853094313
+          }
+        },
+        "share": 0.984375,
+        "targets": 252,
+        "weighted_contribution": {
+          "N": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.040459591152512075,
+              0.07458839109875726
+            ],
+            "mean": 0.057523991125634666
+          },
+          "content": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.03422853602660325,
+              0.13803710645746037
+            ],
+            "mean": 0.08613282124203181
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              -0.006231055125908824,
+              0.06344871535870311
+            ],
+            "mean": 0.028608830116397144
+          }
+        }
+      },
+      "recent": {
+        "documents": 1,
+        "effects": {
+          "N": {
+            "bootstrap_empty": 491,
+            "bootstrap_valid": 1509,
+            "ci95": [
+              0.0007518979255110025,
+              0.0007518979255110025
+            ],
+            "mean": 0.0007518979255110025
+          },
+          "content": {
+            "bootstrap_empty": 491,
+            "bootstrap_valid": 1509,
+            "ci95": [
+              0.0010097414487972856,
+              0.0010097414487972856
+            ],
+            "mean": 0.0010097414487972856
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 491,
+            "bootstrap_valid": 1509,
+            "ci95": [
+              0.000257843523286283,
+              0.000257843523286283
+            ],
+            "mean": 0.000257843523286283
+          }
+        },
+        "share": 0.00390625,
+        "targets": 1,
+        "weighted_contribution": {
+          "N": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              5.874202543054707e-06
+            ],
+            "mean": 2.9371012715273537e-06
+          },
+          "content": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              7.888605068728793e-06
+            ],
+            "mean": 3.944302534364397e-06
+          },
+          "prefix_penalty": {
+            "bootstrap_empty": 0,
+            "bootstrap_valid": 2000,
+            "ci95": [
+              0.0,
+              2.014402525674086e-06
+            ],
+            "mean": 1.007201262837043e-06
+          }
+        }
+      }
+    }
+  },
+  "targets": 256
+}

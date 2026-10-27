@@ -1,0 +1,78 @@
+{
+  "E": 32768,
+  "F": 511,
+  "R": 512,
+  "T": 1024,
+  "cases": [
+    {
+      "document_id": "IEA-WEO-2025",
+      "donor": 1
+    },
+    {
+      "document_id": "IEA-WEO-2025",
+      "donor": 2
+    },
+    {
+      "document_id": "WorldBank-WDR-2025",
+      "donor": 1
+    },
+    {
+      "document_id": "WorldBank-WDR-2025",
+      "donor": 2
+    },
+    {
+      "document_id": "UNDP-HDR-2025",
+      "donor": 1
+    },
+    {
+      "document_id": "UNDP-HDR-2025",
+      "donor": 2
+    },
+    {
+      "document_id": "UK-InfectedBlood-2024-v3",
+      "donor": 1
+    },
+    {
+      "document_id": "UK-InfectedBlood-2024-v3",
+      "donor": 2
+    },
+    {
+      "document_id": "UK-Grenfell-2024-v7",
+      "donor": 1
+    },
+    {
+      "document_id": "UK-Grenfell-2024-v7",
+      "donor": 2
+    },
+    {
+      "document_id": "OECD-Employment-2025",
+      "donor": 1
+    },
+    {
+      "document_id": "OECD-Employment-2025",
+      "donor": 2
+    },
+    {
+      "document_id": "Australia-NDIS-2023",
+      "donor": 1
+    },
+    {
+      "document_id": "Australia-NDIS-2023",
+      "donor": 2
+    },
+    {
+      "document_id": "OECD-PISA-2022-v2",
+      "donor": 1
+    },
+    {
+      "document_id": "OECD-PISA-2022-v2",
+      "donor": 2
+    }
+  ],
+  "full_history_start": 30721,
+  "question": "Does true-vs-foreign ordering persist inside trained context on the same32Ktargetblock?",
+  "repeat_scope": "visible_full_slice",
+  "serialized_full_tokens_including_boundary": 2048,
+  "source_revision": "6c2a036d",
+  "status": "planned_after_long_panel_interim"
+}

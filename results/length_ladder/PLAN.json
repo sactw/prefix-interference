@@ -1,0 +1,114 @@
+{
+  "bootstrap": "paired document resampling, 2000 draws, seed 20261020, pointwise 95% CI",
+  "cases": [
+    {
+      "document_id": "IEA-WEO-2025",
+      "far": 6655,
+      "output": "results/length_ladder_20261024/f6655/01_d1"
+    },
+    {
+      "document_id": "WorldBank-WDR-2025",
+      "far": 6655,
+      "output": "results/length_ladder_20261024/f6655/02_d1"
+    },
+    {
+      "document_id": "UNDP-HDR-2025",
+      "far": 6655,
+      "output": "results/length_ladder_20261024/f6655/03_d1"
+    },
+    {
+      "document_id": "UK-InfectedBlood-2024-v3",
+      "far": 6655,
+      "output": "results/length_ladder_20261024/f6655/04_d1"
+    },
+    {
+      "document_id": "UK-Grenfell-2024-v7",
+      "far": 6655,
+      "output": "results/length_ladder_20261024/f6655/05_d1"
+    },
+    {
+      "document_id": "OECD-Employment-2025",
+      "far": 6655,
+      "output": "results/length_ladder_20261024/f6655/06_d1"
+    },
+    {
+      "document_id": "Australia-NDIS-2023",
+      "far": 6655,
+      "output": "results/length_ladder_20261024/f6655/07_d1"
+    },
+    {
+      "document_id": "OECD-PISA-2022-v2",
+      "far": 6655,
+      "output": "results/length_ladder_20261024/f6655/08_d1"
+    },
+    {
+      "document_id": "IEA-WEO-2025",
+      "far": 31232,
+      "output": "results/length_ladder_20261024/f31232/01_d1"
+    },
+    {
+      "document_id": "WorldBank-WDR-2025",
+      "far": 31232,
+      "output": "results/length_ladder_20261024/f31232/02_d1"
+    },
+    {
+      "document_id": "UNDP-HDR-2025",
+      "far": 31232,
+      "output": "results/length_ladder_20261024/f31232/03_d1"
+    },
+    {
+      "document_id": "UK-InfectedBlood-2024-v3",
+      "far": 31232,
+      "output": "results/length_ladder_20261024/f31232/04_d1"
+    },
+    {
+      "document_id": "UK-Grenfell-2024-v7",
+      "far": 31232,
+      "output": "results/length_ladder_20261024/f31232/05_d1"
+    },
+    {
+      "document_id": "OECD-Employment-2025",
+      "far": 31232,
+      "output": "results/length_ladder_20261024/f31232/06_d1"
+    },
+    {
+      "document_id": "Australia-NDIS-2023",
+      "far": 31232,
+      "output": "results/length_ladder_20261024/f31232/07_d1"
+    },
+    {
+      "document_id": "OECD-PISA-2022-v2",
+      "far": 31232,
+      "output": "results/length_ladder_20261024/f31232/08_d1"
+    }
+  ],
+  "date": "2026-10-24",
+  "donors": "fixed donor1 assignment from fresh panel",
+  "end": 32768,
+  "far_tokens": [
+    511,
+    6655,
+    31232
+  ],
+  "limits": [
+    "Exploratory follow-up selected after initial panel results",
+    "One assigned donor per document; uncertainty conditional on this assignment",
+    "Length and amount/content of old prefix jointly vary; no capacity mechanism isolated"
+  ],
+  "model": "state-spaces/mamba2-130m",
+  "question": "At identical Y and R, how do original and foreign prefix effects change with older-history length?",
+  "recent": 512,
+  "reuse": "F511 donor1 from completed local_control_20261023; other cases newly scored. Exact target IDs and positions compared.",
+  "serialized_input_lengths": [
+    2048,
+    8192,
+    32769
+  ],
+  "source_revision": "51274238",
+  "status": "planned_before_new_scores",
+  "target_positions": [
+    31744,
+    32768
+  ],
+  "targets": 1024
+}

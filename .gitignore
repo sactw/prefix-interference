@@ -1,0 +1,58 @@
+# Python environments and build files
+.venv*/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Tool caches and editor settings
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+.cache/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Downloaded inputs, model weights and runtime caches
+/inputs/
+/data/
+/tokenizers/
+/hf/
+/cache/
+tokenizer_cache/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+pytorch_model*.bin
+
+# Generated outputs; keep the supplied arrays under results/
+/reproduced*/
+/new-results/
+/tmp/
+*.log
+*.tmp
+*.bak
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,354 @@
+{
+  "code_revision": "cuda-header-path-fix",
+  "comparisons": {
+    "alternate_chunks": {
+      "foreign": {
+        "max_abs": 9.059906005859375e-06,
+        "mean_abs": 2.0717852748930454e-06,
+        "passed": true
+      },
+      "full": {
+        "max_abs": 9.5367431640625e-06,
+        "mean_abs": 1.965148840099573e-06,
+        "passed": true
+      },
+      "short": {
+        "max_abs": 9.5367431640625e-06,
+        "mean_abs": 1.8564605852589011e-06,
+        "passed": true
+      }
+    },
+    "fused_prefill": {
+      "foreign": {
+        "max_abs": 9.059906005859375e-06,
+        "mean_abs": 1.8644059309735894e-06,
+        "passed": true
+      },
+      "full": {
+        "max_abs": 9.775161743164062e-06,
+        "mean_abs": 1.990807504625991e-06,
+        "passed": true
+      },
+      "short": {
+        "max_abs": 1.239776611328125e-05,
+        "mean_abs": 2.1217674657236785e-06,
+        "passed": true
+      }
+    }
+  },
+  "hardware": {
+    "gpu": "NVIDIA RTX PRO 4000 Blackwell SFF Edition",
+    "load_seconds": 32.26749789901078
+  },
+  "history": {
+    "document_id": "IEA-WEO-2025",
+    "donor_id": "GAO-25-107705__donor",
+    "end": 2048,
+    "recent": 512,
+    "targets": 128
+  },
+  "kind": "public_rwkv7_backend_smoke",
+  "measurements": {
+    "alternate_chunks": {
+      "foreign": {
+        "cold": {
+          "input_tokens": 2049,
+          "peak_allocated_bytes": 1775211520,
+          "peak_reserved_bytes": 2793406464,
+          "processed_tokens": 2048,
+          "processed_tokens_per_second": 8664.647990072932,
+          "reserved_memory_note": "Includes allocator cache retained from earlier modes in this process.",
+          "scored_targets": 128,
+          "seconds": 0.23636274691671133
+        },
+        "mean_ce": 3.1809911727905273,
+        "warm": {
+          "input_tokens": 2049,
+          "peak_allocated_bytes": 1775211520,
+          "peak_reserved_bytes": 2793406464,
+          "processed_tokens": 2048,
+          "processed_tokens_per_second": 8501.917404423073,
+          "reserved_memory_note": "Includes allocator cache retained from earlier modes in this process.",
+          "scored_targets": 128,
+          "seconds": 0.24088683794252574
+        }
+      },
+      "full": {
+        "cold": {
+          "input_tokens": 2049,
+          "peak_allocated_bytes": 1775211520,
+          "peak_reserved_bytes": 2793406464,
+          "processed_tokens": 2048,
+          "processed_tokens_per_second": 7601.335857052698,
+          "reserved_memory_note": "Includes allocator cache retained from earlier modes in this process.",
+          "scored_targets": 128,
+          "seconds": 0.2694263269659132
+        },
+        "mean_ce": 3.1210241317749023,
+        "warm": {
+          "input_tokens": 2049,
+          "peak_allocated_bytes": 1775211520,
+          "peak_reserved_bytes": 2793406464,
+          "processed_tokens": 2048,
+          "processed_tokens_per_second": 5244.174916621973,
+          "reserved_memory_note": "Includes allocator cache retained from earlier modes in this process.",
+          "scored_targets": 128,
+          "seconds": 0.39052854501642287
+        }
+      },
+      "short": {
+        "cold": {
+          "input_tokens": 641,
+          "peak_allocated_bytes": 1775211520,
+          "peak_reserved_bytes": 2793406464,
+          "processed_tokens": 640,
+          "processed_tokens_per_second": 7892.478193194929,
+          "reserved_memory_note": "Includes allocator cache retained from earlier modes in this process.",
+          "scored_targets": 128,
+          "seconds": 0.0810898661147803
+        },
+        "mean_ce": 3.128262758255005,
+        "warm": {
+          "input_tokens": 641,
+          "peak_allocated_bytes": 1775211520,
+          "peak_reserved_bytes": 2793406464,
+          "processed_tokens": 640,
+          "processed_tokens_per_second": 7791.185029672713,
+          "reserved_memory_note": "Includes allocator cache retained from earlier modes in this process.",
+          "scored_targets": 128,
+          "seconds": 0.0821441151201725
+        }
+      }
+    },
+    "full_reference": {
+      "foreign": {
+        "cold": {
+          "input_tokens": 2049,
+          "peak_allocated_bytes": 2540681216,
+          "peak_reserved_bytes": 2738880512,
+          "processed_tokens": 2048,
+          "processed_tokens_per_second": 11333.674805691991,
+          "reserved_memory_note": "Includes allocator cache retained from earlier modes in this process.",
+          "scored_targets": 128,
+          "seconds": 0.1807004378642887
+        },
+        "mean_ce": 3.1809916496276855,
+        "warm": {
+          "input_tokens": 2049,
+          "peak_allocated_bytes": 2540681216,
+          "peak_reserved_bytes": 2738880512,
+          "processed_tokens": 2048,
+          "processed_tokens_per_second": 11377.371660647548,
+          "reserved_memory_note": "Includes allocator cache retained from earlier modes in this process.",
+          "scored_targets": 128,
+          "seconds": 0.1800064251292497
+        }
+      },
+      "full": {
+        "cold": {
+          "input_tokens": 2049,
+          "peak_allocated_bytes": 2540681216,
+          "peak_reserved_bytes": 2738880512,
+          "processed_tokens": 2048,
+          "processed_tokens_per_second": 5126.676482827989,
+          "reserved_memory_note": "Includes allocator cache retained from earlier modes in this process.",
+          "scored_targets": 128,
+          "seconds": 0.3994790790602565
+        },
+        "mean_ce": 3.1210241317749023,
+        "warm": {
+          "input_tokens": 2049,
+          "peak_allocated_bytes": 2540681216,
+          "peak_reserved_bytes": 2738880512,
+          "processed_tokens": 2048,
+          "processed_tokens_per_second": 5224.373965486003,
+          "reserved_memory_note": "Includes allocator cache retained from earlier modes in this process.",
+          "scored_targets": 128,
+          "seconds": 0.39200869109481573
+        }
+      },
+      "short": {
+        "cold": {
+          "input_tokens": 641,
+          "peak_allocated_bytes": 1980020736,
+          "peak_reserved_bytes": 2738880512,
+          "processed_tokens": 640,
+          "processed_tokens_per_second": 2820.813423024978,
+          "reserved_memory_note": "Includes allocator cache retained from earlier modes in this process.",
+          "scored_targets": 128,
+          "seconds": 0.2268849101383239
+        },
+        "mean_ce": 3.128262996673584,
+        "warm": {
+          "input_tokens": 641,
+          "peak_allocated_bytes": 1980020736,
+          "peak_reserved_bytes": 2738880512,
+          "processed_tokens": 640,
+          "processed_tokens_per_second": 12289.317914771573,
+          "reserved_memory_note": "Includes allocator cache retained from earlier modes in this process.",
+          "scored_targets": 128,
+          "seconds": 0.052077747881412506
+        }
+      }
+    },
+    "fused_prefill": {
+      "foreign": {
+        "cold": {
+          "input_tokens": 2049,
+          "peak_allocated_bytes": 2163847168,
+          "peak_reserved_bytes": 2768240640,
+          "processed_tokens": 2048,
+          "processed_tokens_per_second": 11738.830688394291,
+          "reserved_memory_note": "Includes allocator cache retained from earlier modes in this process.",
+          "scored_targets": 128,
+          "seconds": 0.17446371400728822
+        },
+        "mean_ce": 3.1809911727905273,
+        "warm": {
+          "input_tokens": 2049,
+          "peak_allocated_bytes": 2163847168,
+          "peak_reserved_bytes": 2768240640,
+          "processed_tokens": 2048,
+          "processed_tokens_per_second": 11860.136377003882,
+          "reserved_memory_note": "Includes allocator cache retained from earlier modes in this process.",
+          "scored_targets": 128,
+          "seconds": 0.17267929599620402
+        }
+      },
+      "full": {
+        "cold": {
+          "input_tokens": 2049,
+          "peak_allocated_bytes": 2163847168,
+          "peak_reserved_bytes": 2768240640,
+          "processed_tokens": 2048,
+          "processed_tokens_per_second": 4135.0607610844845,
+          "reserved_memory_note": "Includes allocator cache retained from earlier modes in this process.",
+          "scored_targets": 128,
+          "seconds": 0.4952768818475306
+        },
+        "mean_ce": 3.1210241317749023,
+        "warm": {
+          "input_tokens": 2049,
+          "peak_allocated_bytes": 2163847168,
+          "peak_reserved_bytes": 2768240640,
+          "processed_tokens": 2048,
+          "processed_tokens_per_second": 11833.923391377795,
+          "reserved_memory_note": "Includes allocator cache retained from earlier modes in this process.",
+          "scored_targets": 128,
+          "seconds": 0.17306179297156632
+        }
+      },
+      "short": {
+        "cold": {
+          "input_tokens": 641,
+          "peak_allocated_bytes": 1851240448,
+          "peak_reserved_bytes": 2768240640,
+          "processed_tokens": 640,
+          "processed_tokens_per_second": 11585.138971602546,
+          "reserved_memory_note": "Includes allocator cache retained from earlier modes in this process.",
+          "scored_targets": 128,
+          "seconds": 0.05524318711832166
+        },
+        "mean_ce": 3.128262996673584,
+        "warm": {
+          "input_tokens": 641,
+          "peak_allocated_bytes": 1851240448,
+          "peak_reserved_bytes": 2768240640,
+          "processed_tokens": 640,
+          "processed_tokens_per_second": 11660.701418675035,
+          "reserved_memory_note": "Includes allocator cache retained from earlier modes in this process.",
+          "scored_targets": 128,
+          "seconds": 0.05488520604558289
+        }
+      }
+    }
+  },
+  "model": {
+    "backend": "official rwkv RWKV_x070 native CUDA FP32",
+    "boundary_token_id": 0,
+    "compiler_mode": "official TorchScript plus native CUDA extension",
+    "cuda_runtime": "12.8",
+    "device": "cuda",
+    "dtype": "float32",
+    "execution_modes": {
+      "score": "same native recurrence, caller-sized chunks for both prefix and targets",
+      "score_full": "bounded native fused sequence prefill, followed by all-logit target chunks",
+      "score_one": "official one-token TorchScript recurrence; short numerical reference only",
+      "score_reference": "single native full-output sequence; short numerical reference only"
+    },
+    "filename": "RWKV-x070-Pile-421M-20241127-ctx4096.pth",
+    "head_size": 64,
+    "layers": 24,
+    "loss_dtype": "float32",
+    "memory_budget": {
+      "allocator_fraction": 0.5565926626151301,
+      "requested_decimal_gb": 14.0,
+      "scope": "PyTorch allocator; context/library allocations are additional"
+    },
+    "model_file_sha256": "00bcbc502587dfc01f5f37033400c3d8a13c38da4f2c3b72ff7c8dab961a2be5",
+    "model_id": "BlinkDL/rwkv-7-pile",
+    "native_cuda_fast_math": true,
+    "parameters": 421080064,
+    "prefill_chunk_size": 4096,
+    "revision": "dac041b037030e33db4ccaccffb67b3fd6d63ff4",
+    "runtime_reference_revision": "2e2bb1cd390cefbedae0a89f4a343f6f754d6621",
+    "runtime_source_sha256": {
+      "cuda/rwkv7.cu": "b1f5b7d427bd55400b926ca3e8a7ac9a6ee12c1032a096282db1041ba6f98c1f",
+      "cuda/rwkv7_op.cpp": "5876b9ec7e04f9500eb033dd1ad3b132ff1faa304d0372de2c7dcde96055e8d1",
+      "model.py": "75482aee89a08d2a8c8dbe628110b317fc8d0974ddffbaa52aa19190667305e0"
+    },
+    "selected_execution": "native_fused_chunked_recurrence",
+    "special_tokens": "encode adds none; caller supplies one native Pile document boundary ID0",
+    "state": "native attention previous-x, matrix state and FFN previous-x in every layer",
+    "state_dtype": "float32",
+    "tokenizer_file_sha256": "56ac4821e129d2c520fdaba60abd920fa852ada51b45c0dd52bbb6bd8c985ade",
+    "tokenizer_id": "BlinkDL/ChatRWKV/20B_tokenizer.json",
+    "tokenizer_revision": "2e2bb1cd390cefbedae0a89f4a343f6f754d6621",
+    "tokenizer_vocabulary": 50277,
+    "torch_cudnn_tf32": false,
+    "torch_matmul_tf32": false,
+    "validation_status": "GPU parity/timing must be read from this run's smoke report",
+    "versions": {
+      "huggingface-hub": "0.34.4",
+      "rwkv": "0.8.32",
+      "tokenizers": "0.19.1",
+      "torch": "2.7.1+cu128"
+    },
+    "vocabulary_classes": 50304,
+    "vocabulary_normalization": "all native head output classes, including any padded classes",
+    "width": 1024
+  },
+  "passed": true,
+  "single_step": {
+    "input_tokens": 129,
+    "max_abs": 5.7220458984375e-06,
+    "mean_abs": 1.8076971173286438e-06,
+    "one": {
+      "input_tokens": 129,
+      "peak_allocated_bytes": 1706364928,
+      "peak_reserved_bytes": 2793406464,
+      "processed_tokens": 128,
+      "processed_tokens_per_second": 174.51916297887104,
+      "reserved_memory_note": "Includes allocator cache retained from earlier modes in this process.",
+      "scored_targets": 32,
+      "seconds": 0.733443811070174
+    },
+    "passed": true,
+    "sequence": {
+      "input_tokens": 129,
+      "peak_allocated_bytes": 1756493312,
+      "peak_reserved_bytes": 2793406464,
+      "processed_tokens": 128,
+      "processed_tokens_per_second": 9027.447582209908,
+      "reserved_memory_note": "Includes allocator cache retained from earlier modes in this process.",
+      "scored_targets": 32,
+      "seconds": 0.014178980141878128
+    },
+    "targets": 32
+  },
+  "status": "completed",
+  "tolerances": {
+    "max_abs": 0.001,
+    "mean_abs": 0.0001
+  }
+}

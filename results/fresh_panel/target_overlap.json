@@ -1,0 +1,170 @@
+[
+  {
+    "a": "IEA-WEO-2025",
+    "b": "WorldBank-WDR-2025",
+    "jaccard": 0.0,
+    "shared_13_word_shingles": 0
+  },
+  {
+    "a": "IEA-WEO-2025",
+    "b": "UNDP-HDR-2025",
+    "jaccard": 0.0,
+    "shared_13_word_shingles": 0
+  },
+  {
+    "a": "IEA-WEO-2025",
+    "b": "UK-InfectedBlood-2024-v3",
+    "jaccard": 0.0,
+    "shared_13_word_shingles": 0
+  },
+  {
+    "a": "IEA-WEO-2025",
+    "b": "UK-Grenfell-2024-v7",
+    "jaccard": 0.0,
+    "shared_13_word_shingles": 0
+  },
+  {
+    "a": "IEA-WEO-2025",
+    "b": "OECD-Employment-2025",
+    "jaccard": 0.0006020019679236745,
+    "shared_13_word_shingles": 145
+  },
+  {
+    "a": "IEA-WEO-2025",
+    "b": "Australia-NDIS-2023",
+    "jaccard": 0.0,
+    "shared_13_word_shingles": 0
+  },
+  {
+    "a": "IEA-WEO-2025",
+    "b": "OECD-PISA-2022-v2",
+    "jaccard": 0.0007176781002638523,
+    "shared_13_word_shingles": 170
+  },
+  {
+    "a": "WorldBank-WDR-2025",
+    "b": "UNDP-HDR-2025",
+    "jaccard": 0.0,
+    "shared_13_word_shingles": 0
+  },
+  {
+    "a": "WorldBank-WDR-2025",
+    "b": "UK-InfectedBlood-2024-v3",
+    "jaccard": 0.0,
+    "shared_13_word_shingles": 0
+  },
+  {
+    "a": "WorldBank-WDR-2025",
+    "b": "UK-Grenfell-2024-v7",
+    "jaccard": 0.0,
+    "shared_13_word_shingles": 0
+  },
+  {
+    "a": "WorldBank-WDR-2025",
+    "b": "OECD-Employment-2025",
+    "jaccard": 0.0,
+    "shared_13_word_shingles": 0
+  },
+  {
+    "a": "WorldBank-WDR-2025",
+    "b": "Australia-NDIS-2023",
+    "jaccard": 0.0,
+    "shared_13_word_shingles": 0
+  },
+  {
+    "a": "WorldBank-WDR-2025",
+    "b": "OECD-PISA-2022-v2",
+    "jaccard": 0.0,
+    "shared_13_word_shingles": 0
+  },
+  {
+    "a": "UNDP-HDR-2025",
+    "b": "UK-InfectedBlood-2024-v3",
+    "jaccard": 0.0,
+    "shared_13_word_shingles": 0
+  },
+  {
+    "a": "UNDP-HDR-2025",
+    "b": "UK-Grenfell-2024-v7",
+    "jaccard": 0.0,
+    "shared_13_word_shingles": 0
+  },
+  {
+    "a": "UNDP-HDR-2025",
+    "b": "OECD-Employment-2025",
+    "jaccard": 1.1537840270139301e-05,
+    "shared_13_word_shingles": 3
+  },
+  {
+    "a": "UNDP-HDR-2025",
+    "b": "Australia-NDIS-2023",
+    "jaccard": 0.0,
+    "shared_13_word_shingles": 0
+  },
+  {
+    "a": "UNDP-HDR-2025",
+    "b": "OECD-PISA-2022-v2",
+    "jaccard": 0.0,
+    "shared_13_word_shingles": 0
+  },
+  {
+    "a": "UK-InfectedBlood-2024-v3",
+    "b": "UK-Grenfell-2024-v7",
+    "jaccard": 5.399684658415949e-05,
+    "shared_13_word_shingles": 20
+  },
+  {
+    "a": "UK-InfectedBlood-2024-v3",
+    "b": "OECD-Employment-2025",
+    "jaccard": 0.0,
+    "shared_13_word_shingles": 0
+  },
+  {
+    "a": "UK-InfectedBlood-2024-v3",
+    "b": "Australia-NDIS-2023",
+    "jaccard": 0.0,
+    "shared_13_word_shingles": 0
+  },
+  {
+    "a": "UK-InfectedBlood-2024-v3",
+    "b": "OECD-PISA-2022-v2",
+    "jaccard": 0.0,
+    "shared_13_word_shingles": 0
+  },
+  {
+    "a": "UK-Grenfell-2024-v7",
+    "b": "OECD-Employment-2025",
+    "jaccard": 0.0,
+    "shared_13_word_shingles": 0
+  },
+  {
+    "a": "UK-Grenfell-2024-v7",
+    "b": "Australia-NDIS-2023",
+    "jaccard": 0.0,
+    "shared_13_word_shingles": 0
+  },
+  {
+    "a": "UK-Grenfell-2024-v7",
+    "b": "OECD-PISA-2022-v2",
+    "jaccard": 0.0,
+    "shared_13_word_shingles": 0
+  },
+  {
+    "a": "OECD-Employment-2025",
+    "b": "Australia-NDIS-2023",
+    "jaccard": 0.0,
+    "shared_13_word_shingles": 0
+  },
+  {
+    "a": "OECD-Employment-2025",
+    "b": "OECD-PISA-2022-v2",
+    "jaccard": 0.001201778028078362,
+    "shared_13_word_shingles": 239
+  },
+  {
+    "a": "Australia-NDIS-2023",
+    "b": "OECD-PISA-2022-v2",
+    "jaccard": 0.0,
+    "shared_13_word_shingles": 0
+  }
+]

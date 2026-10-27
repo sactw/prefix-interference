@@ -1,0 +1,786 @@
+{
+  "cases": [
+    {
+      "document_id": "IEA-WEO-2025",
+      "donor_number": 1,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c1024/01_d1",
+      "recent": 1024,
+      "targets": 1024
+    },
+    {
+      "document_id": "IEA-WEO-2025",
+      "donor_number": 2,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c1024/01_d2",
+      "recent": 1024,
+      "targets": 1024
+    },
+    {
+      "document_id": "WorldBank-WDR-2025",
+      "donor_number": 1,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c1024/02_d1",
+      "recent": 1024,
+      "targets": 1024
+    },
+    {
+      "document_id": "WorldBank-WDR-2025",
+      "donor_number": 2,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c1024/02_d2",
+      "recent": 1024,
+      "targets": 1024
+    },
+    {
+      "document_id": "UNDP-HDR-2025",
+      "donor_number": 1,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c1024/03_d1",
+      "recent": 1024,
+      "targets": 1024
+    },
+    {
+      "document_id": "UNDP-HDR-2025",
+      "donor_number": 2,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c1024/03_d2",
+      "recent": 1024,
+      "targets": 1024
+    },
+    {
+      "document_id": "UK-InfectedBlood-2024-v3",
+      "donor_number": 1,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c1024/04_d1",
+      "recent": 1024,
+      "targets": 1024
+    },
+    {
+      "document_id": "UK-InfectedBlood-2024-v3",
+      "donor_number": 2,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c1024/04_d2",
+      "recent": 1024,
+      "targets": 1024
+    },
+    {
+      "document_id": "UK-Grenfell-2024-v7",
+      "donor_number": 1,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c1024/05_d1",
+      "recent": 1024,
+      "targets": 1024
+    },
+    {
+      "document_id": "UK-Grenfell-2024-v7",
+      "donor_number": 2,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c1024/05_d2",
+      "recent": 1024,
+      "targets": 1024
+    },
+    {
+      "document_id": "OECD-Employment-2025",
+      "donor_number": 1,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c1024/06_d1",
+      "recent": 1024,
+      "targets": 1024
+    },
+    {
+      "document_id": "OECD-Employment-2025",
+      "donor_number": 2,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c1024/06_d2",
+      "recent": 1024,
+      "targets": 1024
+    },
+    {
+      "document_id": "Australia-NDIS-2023",
+      "donor_number": 1,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c1024/07_d1",
+      "recent": 1024,
+      "targets": 1024
+    },
+    {
+      "document_id": "Australia-NDIS-2023",
+      "donor_number": 2,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c1024/07_d2",
+      "recent": 1024,
+      "targets": 1024
+    },
+    {
+      "document_id": "OECD-PISA-2022-v2",
+      "donor_number": 1,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c1024/08_d1",
+      "recent": 1024,
+      "targets": 1024
+    },
+    {
+      "document_id": "OECD-PISA-2022-v2",
+      "donor_number": 2,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c1024/08_d2",
+      "recent": 1024,
+      "targets": 1024
+    },
+    {
+      "document_id": "IEA-WEO-2025",
+      "donor_number": 1,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c8192/01_d1",
+      "recent": 8192,
+      "targets": 1024
+    },
+    {
+      "document_id": "IEA-WEO-2025",
+      "donor_number": 2,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c8192/01_d2",
+      "recent": 8192,
+      "targets": 1024
+    },
+    {
+      "document_id": "WorldBank-WDR-2025",
+      "donor_number": 1,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c8192/02_d1",
+      "recent": 8192,
+      "targets": 1024
+    },
+    {
+      "document_id": "WorldBank-WDR-2025",
+      "donor_number": 2,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c8192/02_d2",
+      "recent": 8192,
+      "targets": 1024
+    },
+    {
+      "document_id": "UNDP-HDR-2025",
+      "donor_number": 1,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c8192/03_d1",
+      "recent": 8192,
+      "targets": 1024
+    },
+    {
+      "document_id": "UNDP-HDR-2025",
+      "donor_number": 2,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c8192/03_d2",
+      "recent": 8192,
+      "targets": 1024
+    },
+    {
+      "document_id": "UK-InfectedBlood-2024-v3",
+      "donor_number": 1,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c8192/04_d1",
+      "recent": 8192,
+      "targets": 1024
+    },
+    {
+      "document_id": "UK-InfectedBlood-2024-v3",
+      "donor_number": 2,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c8192/04_d2",
+      "recent": 8192,
+      "targets": 1024
+    },
+    {
+      "document_id": "UK-Grenfell-2024-v7",
+      "donor_number": 1,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c8192/05_d1",
+      "recent": 8192,
+      "targets": 1024
+    },
+    {
+      "document_id": "UK-Grenfell-2024-v7",
+      "donor_number": 2,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c8192/05_d2",
+      "recent": 8192,
+      "targets": 1024
+    },
+    {
+      "document_id": "OECD-Employment-2025",
+      "donor_number": 1,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c8192/06_d1",
+      "recent": 8192,
+      "targets": 1024
+    },
+    {
+      "document_id": "OECD-Employment-2025",
+      "donor_number": 2,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c8192/06_d2",
+      "recent": 8192,
+      "targets": 1024
+    },
+    {
+      "document_id": "Australia-NDIS-2023",
+      "donor_number": 1,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c8192/07_d1",
+      "recent": 8192,
+      "targets": 1024
+    },
+    {
+      "document_id": "Australia-NDIS-2023",
+      "donor_number": 2,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c8192/07_d2",
+      "recent": 8192,
+      "targets": 1024
+    },
+    {
+      "document_id": "OECD-PISA-2022-v2",
+      "donor_number": 1,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c8192/08_d1",
+      "recent": 8192,
+      "targets": 1024
+    },
+    {
+      "document_id": "OECD-PISA-2022-v2",
+      "donor_number": 2,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c8192/08_d2",
+      "recent": 8192,
+      "targets": 1024
+    },
+    {
+      "document_id": "IEA-WEO-2025",
+      "donor_number": 1,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c16384/01_d1",
+      "recent": 16384,
+      "targets": 1024
+    },
+    {
+      "document_id": "IEA-WEO-2025",
+      "donor_number": 2,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c16384/01_d2",
+      "recent": 16384,
+      "targets": 1024
+    },
+    {
+      "document_id": "WorldBank-WDR-2025",
+      "donor_number": 1,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c16384/02_d1",
+      "recent": 16384,
+      "targets": 1024
+    },
+    {
+      "document_id": "WorldBank-WDR-2025",
+      "donor_number": 2,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c16384/02_d2",
+      "recent": 16384,
+      "targets": 1024
+    },
+    {
+      "document_id": "UNDP-HDR-2025",
+      "donor_number": 1,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c16384/03_d1",
+      "recent": 16384,
+      "targets": 1024
+    },
+    {
+      "document_id": "UNDP-HDR-2025",
+      "donor_number": 2,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c16384/03_d2",
+      "recent": 16384,
+      "targets": 1024
+    },
+    {
+      "document_id": "UK-InfectedBlood-2024-v3",
+      "donor_number": 1,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c16384/04_d1",
+      "recent": 16384,
+      "targets": 1024
+    },
+    {
+      "document_id": "UK-InfectedBlood-2024-v3",
+      "donor_number": 2,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c16384/04_d2",
+      "recent": 16384,
+      "targets": 1024
+    },
+    {
+      "document_id": "UK-Grenfell-2024-v7",
+      "donor_number": 1,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c16384/05_d1",
+      "recent": 16384,
+      "targets": 1024
+    },
+    {
+      "document_id": "UK-Grenfell-2024-v7",
+      "donor_number": 2,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c16384/05_d2",
+      "recent": 16384,
+      "targets": 1024
+    },
+    {
+      "document_id": "OECD-Employment-2025",
+      "donor_number": 1,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c16384/06_d1",
+      "recent": 16384,
+      "targets": 1024
+    },
+    {
+      "document_id": "OECD-Employment-2025",
+      "donor_number": 2,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c16384/06_d2",
+      "recent": 16384,
+      "targets": 1024
+    },
+    {
+      "document_id": "Australia-NDIS-2023",
+      "donor_number": 1,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c16384/07_d1",
+      "recent": 16384,
+      "targets": 1024
+    },
+    {
+      "document_id": "Australia-NDIS-2023",
+      "donor_number": 2,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c16384/07_d2",
+      "recent": 16384,
+      "targets": 1024
+    },
+    {
+      "document_id": "OECD-PISA-2022-v2",
+      "donor_number": 1,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c16384/08_d1",
+      "recent": 16384,
+      "targets": 1024
+    },
+    {
+      "document_id": "OECD-PISA-2022-v2",
+      "donor_number": 2,
+      "end": 32768,
+      "output": "results/fresh_panel_20261023/e32768_c16384/08_d2",
+      "recent": 16384,
+      "targets": 1024
+    },
+    {
+      "document_id": "IEA-WEO-2025",
+      "donor_number": 1,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c1024/01_d1",
+      "recent": 1024,
+      "targets": 1024
+    },
+    {
+      "document_id": "IEA-WEO-2025",
+      "donor_number": 2,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c1024/01_d2",
+      "recent": 1024,
+      "targets": 1024
+    },
+    {
+      "document_id": "WorldBank-WDR-2025",
+      "donor_number": 1,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c1024/02_d1",
+      "recent": 1024,
+      "targets": 1024
+    },
+    {
+      "document_id": "WorldBank-WDR-2025",
+      "donor_number": 2,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c1024/02_d2",
+      "recent": 1024,
+      "targets": 1024
+    },
+    {
+      "document_id": "UNDP-HDR-2025",
+      "donor_number": 1,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c1024/03_d1",
+      "recent": 1024,
+      "targets": 1024
+    },
+    {
+      "document_id": "UNDP-HDR-2025",
+      "donor_number": 2,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c1024/03_d2",
+      "recent": 1024,
+      "targets": 1024
+    },
+    {
+      "document_id": "UK-InfectedBlood-2024-v3",
+      "donor_number": 1,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c1024/04_d1",
+      "recent": 1024,
+      "targets": 1024
+    },
+    {
+      "document_id": "UK-InfectedBlood-2024-v3",
+      "donor_number": 2,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c1024/04_d2",
+      "recent": 1024,
+      "targets": 1024
+    },
+    {
+      "document_id": "UK-Grenfell-2024-v7",
+      "donor_number": 1,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c1024/05_d1",
+      "recent": 1024,
+      "targets": 1024
+    },
+    {
+      "document_id": "UK-Grenfell-2024-v7",
+      "donor_number": 2,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c1024/05_d2",
+      "recent": 1024,
+      "targets": 1024
+    },
+    {
+      "document_id": "OECD-Employment-2025",
+      "donor_number": 1,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c1024/06_d1",
+      "recent": 1024,
+      "targets": 1024
+    },
+    {
+      "document_id": "OECD-Employment-2025",
+      "donor_number": 2,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c1024/06_d2",
+      "recent": 1024,
+      "targets": 1024
+    },
+    {
+      "document_id": "Australia-NDIS-2023",
+      "donor_number": 1,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c1024/07_d1",
+      "recent": 1024,
+      "targets": 1024
+    },
+    {
+      "document_id": "Australia-NDIS-2023",
+      "donor_number": 2,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c1024/07_d2",
+      "recent": 1024,
+      "targets": 1024
+    },
+    {
+      "document_id": "OECD-PISA-2022-v2",
+      "donor_number": 1,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c1024/08_d1",
+      "recent": 1024,
+      "targets": 1024
+    },
+    {
+      "document_id": "OECD-PISA-2022-v2",
+      "donor_number": 2,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c1024/08_d2",
+      "recent": 1024,
+      "targets": 1024
+    },
+    {
+      "document_id": "IEA-WEO-2025",
+      "donor_number": 1,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c8192/01_d1",
+      "recent": 8192,
+      "targets": 1024
+    },
+    {
+      "document_id": "IEA-WEO-2025",
+      "donor_number": 2,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c8192/01_d2",
+      "recent": 8192,
+      "targets": 1024
+    },
+    {
+      "document_id": "WorldBank-WDR-2025",
+      "donor_number": 1,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c8192/02_d1",
+      "recent": 8192,
+      "targets": 1024
+    },
+    {
+      "document_id": "WorldBank-WDR-2025",
+      "donor_number": 2,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c8192/02_d2",
+      "recent": 8192,
+      "targets": 1024
+    },
+    {
+      "document_id": "UNDP-HDR-2025",
+      "donor_number": 1,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c8192/03_d1",
+      "recent": 8192,
+      "targets": 1024
+    },
+    {
+      "document_id": "UNDP-HDR-2025",
+      "donor_number": 2,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c8192/03_d2",
+      "recent": 8192,
+      "targets": 1024
+    },
+    {
+      "document_id": "UK-InfectedBlood-2024-v3",
+      "donor_number": 1,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c8192/04_d1",
+      "recent": 8192,
+      "targets": 1024
+    },
+    {
+      "document_id": "UK-InfectedBlood-2024-v3",
+      "donor_number": 2,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c8192/04_d2",
+      "recent": 8192,
+      "targets": 1024
+    },
+    {
+      "document_id": "UK-Grenfell-2024-v7",
+      "donor_number": 1,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c8192/05_d1",
+      "recent": 8192,
+      "targets": 1024
+    },
+    {
+      "document_id": "UK-Grenfell-2024-v7",
+      "donor_number": 2,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c8192/05_d2",
+      "recent": 8192,
+      "targets": 1024
+    },
+    {
+      "document_id": "OECD-Employment-2025",
+      "donor_number": 1,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c8192/06_d1",
+      "recent": 8192,
+      "targets": 1024
+    },
+    {
+      "document_id": "OECD-Employment-2025",
+      "donor_number": 2,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c8192/06_d2",
+      "recent": 8192,
+      "targets": 1024
+    },
+    {
+      "document_id": "Australia-NDIS-2023",
+      "donor_number": 1,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c8192/07_d1",
+      "recent": 8192,
+      "targets": 1024
+    },
+    {
+      "document_id": "Australia-NDIS-2023",
+      "donor_number": 2,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c8192/07_d2",
+      "recent": 8192,
+      "targets": 1024
+    },
+    {
+      "document_id": "OECD-PISA-2022-v2",
+      "donor_number": 1,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c8192/08_d1",
+      "recent": 8192,
+      "targets": 1024
+    },
+    {
+      "document_id": "OECD-PISA-2022-v2",
+      "donor_number": 2,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c8192/08_d2",
+      "recent": 8192,
+      "targets": 1024
+    },
+    {
+      "document_id": "IEA-WEO-2025",
+      "donor_number": 1,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c16384/01_d1",
+      "recent": 16384,
+      "targets": 1024
+    },
+    {
+      "document_id": "IEA-WEO-2025",
+      "donor_number": 2,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c16384/01_d2",
+      "recent": 16384,
+      "targets": 1024
+    },
+    {
+      "document_id": "WorldBank-WDR-2025",
+      "donor_number": 1,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c16384/02_d1",
+      "recent": 16384,
+      "targets": 1024
+    },
+    {
+      "document_id": "WorldBank-WDR-2025",
+      "donor_number": 2,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c16384/02_d2",
+      "recent": 16384,
+      "targets": 1024
+    },
+    {
+      "document_id": "UNDP-HDR-2025",
+      "donor_number": 1,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c16384/03_d1",
+      "recent": 16384,
+      "targets": 1024
+    },
+    {
+      "document_id": "UNDP-HDR-2025",
+      "donor_number": 2,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c16384/03_d2",
+      "recent": 16384,
+      "targets": 1024
+    },
+    {
+      "document_id": "UK-InfectedBlood-2024-v3",
+      "donor_number": 1,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c16384/04_d1",
+      "recent": 16384,
+      "targets": 1024
+    },
+    {
+      "document_id": "UK-InfectedBlood-2024-v3",
+      "donor_number": 2,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c16384/04_d2",
+      "recent": 16384,
+      "targets": 1024
+    },
+    {
+      "document_id": "UK-Grenfell-2024-v7",
+      "donor_number": 1,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c16384/05_d1",
+      "recent": 16384,
+      "targets": 1024
+    },
+    {
+      "document_id": "UK-Grenfell-2024-v7",
+      "donor_number": 2,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c16384/05_d2",
+      "recent": 16384,
+      "targets": 1024
+    },
+    {
+      "document_id": "OECD-Employment-2025",
+      "donor_number": 1,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c16384/06_d1",
+      "recent": 16384,
+      "targets": 1024
+    },
+    {
+      "document_id": "OECD-Employment-2025",
+      "donor_number": 2,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c16384/06_d2",
+      "recent": 16384,
+      "targets": 1024
+    },
+    {
+      "document_id": "Australia-NDIS-2023",
+      "donor_number": 1,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c16384/07_d1",
+      "recent": 16384,
+      "targets": 1024
+    },
+    {
+      "document_id": "Australia-NDIS-2023",
+      "donor_number": 2,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c16384/07_d2",
+      "recent": 16384,
+      "targets": 1024
+    },
+    {
+      "document_id": "OECD-PISA-2022-v2",
+      "donor_number": 1,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c16384/08_d1",
+      "recent": 16384,
+      "targets": 1024
+    },
+    {
+      "document_id": "OECD-PISA-2022-v2",
+      "donor_number": 2,
+      "end": 65536,
+      "output": "results/fresh_panel_20261023/e65536_c16384/08_d2",
+      "recent": 16384,
+      "targets": 1024
+    }
+  ],
+  "inputs": [
+    {
+      "name": "panel_donor1.jsonl",
+      "sha256": "ae7c844916fc9b2e4a0400866059539282151046f071182636bcc717bc9a11fa"
+    },
+    {
+      "name": "panel_donor2.jsonl",
+      "sha256": "a0f94c5f1438d62ef01aceade6f20ae49f0d1b82e2a7f123cafac528667fb284"
+    }
+  ],
+  "scientific_question": "Distinguish original-versus-foreign content from net history benefit under two fixed donors",
+  "short_reference": "C1024 + T1024, changed fromC2048 before scoring to include a reference inside2048trainingtokens",
+  "source_revision": "38bdfa85",
+  "status": "planned_before_results"
+}
